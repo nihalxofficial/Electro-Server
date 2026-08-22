@@ -26,7 +26,7 @@ export async function updateSubCategory(id: string, data: UpdateSubCategoryInput
 }
 
 export async function deleteSubCategory(id: string) {
-  const productCount = await Product.countDocuments({ subCategoryId: id });
+  const productCount = await Product.countDocuments({ subCategoryIds: id });
   if (productCount > 0) throw new ApiError(400, "Cannot delete subcategory with active products");
   await SubCategory.findByIdAndDelete(id);
 }

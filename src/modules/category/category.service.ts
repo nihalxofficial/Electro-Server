@@ -23,7 +23,7 @@ export async function updateCategory(id: string, data: UpdateCategoryInput) {
 export async function deleteCategory(id: string) {
   const subIds = await SubCategory.find({ categoryId: id }).distinct("_id");
   const productCount = await Product.countDocuments({
-    $or: [{ categoryId: id }, { subCategoryId: { $in: subIds } }],
+    $or: [{ categoryId: id }, { subCategoryIds: { $in: subIds } }],
   });
   if (productCount > 0) throw new ApiError(400, "Cannot delete category with active products");
 
