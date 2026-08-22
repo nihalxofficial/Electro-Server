@@ -1,3 +1,4 @@
+```
 server/
 ├── src/
 │   ├── index.ts                     # entry point — connects DB, starts server
@@ -41,3 +42,4 @@ server/
 ├── .env
 ├── package.json
 └── tsconfig.json
+```
