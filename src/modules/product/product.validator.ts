@@ -3,6 +3,7 @@ import { z } from "zod";
 const objectId = z.string().regex(/^[0-9a-fA-F]{24}$/, "Invalid ID");
 
 export const createProductSchema = z.object({
+  ownerId: objectId,
   title: z.string().min(1, "Title is required"),
   slug: z
     .string()
@@ -14,8 +15,6 @@ export const createProductSchema = z.object({
 
   price: z.number().positive("Price must be positive"),
   originalPrice: z.number().positive().optional(),
-  // discountPercentage deliberately excluded from schema — if the client sends it,
-  // Zod strips unknown keys by default, so it's silently dropped before it reaches the DB
 
   image: z.string().url("Image must be a valid URL"),
   additionalImages: z.array(z.string().url()).optional(),

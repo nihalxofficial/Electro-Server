@@ -13,7 +13,7 @@ app.use(express.json());
 
 // ── Health check ──────────────────────────────────────────────────────────────
 app.get("/", (_req, res) => {
-  res.json({ success: true, message: "⚡ Electro server is running" });
+  res.json({ success: true, message: "Electro server is running✅" });
 });
 
 app.use("/api/categories", categoryRoutes);

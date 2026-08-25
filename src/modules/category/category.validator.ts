@@ -1,12 +1,15 @@
 import { z } from "zod";
 
+const objectId = z.string().regex(/^[0-9a-fA-F]{24}$/, "Invalid ObjectId");
+
 export const createCategorySchema = z.object({
+  ownerId: objectId,
   name: z.string().min(1, "Name is required"),
   slug: z
     .string()
     .min(1, "Slug is required")
     .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "Slug must be lowercase, hyphen-separated"),
-  image: z.string().url("Image must be a valid URL").optional(),
+  image: z.string().optional(),
   description: z.string().optional(),
   isActive: z.boolean().optional(),
 });

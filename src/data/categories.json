@@ -1,0 +1,82 @@
+﻿[
+  {
+    "ownerId": "64f1a2b3c4d5e6f7a8b9c0d1",
+    "name": "Laptops & Computers",
+    "slug": "laptops-computers",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600",
+    "description": "Explore a wide range of laptops, desktops, and computer accessories for work, gaming, and everyday use.",
+    "isActive": true
+  },
+  {
+    "ownerId": "64f1a2b3c4d5e6f7a8b9c0d1",
+    "name": "Smartphones & Tablets",
+    "slug": "smartphones-tablets",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600",
+    "description": "Latest smartphones, tablets, and mobile accessories from top brands worldwide.",
+    "isActive": true
+  },
+  {
+    "ownerId": "64f1a2b3c4d5e6f7a8b9c0d1",
+    "name": "Audio & Headphones",
+    "slug": "audio-headphones",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600",
+    "description": "Premium headphones, earbuds, speakers, and audio equipment for the best sound experience.",
+    "isActive": true
+  },
+  {
+    "ownerId": "64f1a2b3c4d5e6f7a8b9c0d1",
+    "name": "Gaming",
+    "slug": "gaming",
+    "image": "https://images.unsplash.com/photo-1593640495253-23196b27a87f?w=600",
+    "description": "Gaming consoles, controllers, PC gaming gear, and accessories for every gamer.",
+    "isActive": true
+  },
+  {
+    "ownerId": "64f1a2b3c4d5e6f7a8b9c0d1",
+    "name": "Cameras & Photography",
+    "slug": "cameras-photography",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600",
+    "description": "Digital cameras, DSLRs, mirrorless cameras, lenses, and photography accessories.",
+    "isActive": true
+  },
+  {
+    "ownerId": "64f1a2b3c4d5e6f7a8b9c0d1",
+    "name": "TVs & Displays",
+    "slug": "tvs-displays",
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829e1?w=600",
+    "description": "Smart TVs, monitors, projectors, and display accessories for home and office.",
+    "isActive": true
+  },
+  {
+    "ownerId": "64f1a2b3c4d5e6f7a8b9c0d1",
+    "name": "Smart Home",
+    "slug": "smart-home",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
+    "description": "Smart speakers, home automation, security cameras, and connected home devices.",
+    "isActive": true
+  },
+  {
+    "ownerId": "64f1a2b3c4d5e6f7a8b9c0d1",
+    "name": "Wearables",
+    "slug": "wearables",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600",
+    "description": "Smartwatches, fitness trackers, and wearable technology for an active lifestyle.",
+    "isActive": true
+  },
+  {
+    "ownerId": "64f1a2b3c4d5e6f7a8b9c0d1",
+    "name": "Networking",
+    "slug": "networking",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600",
+    "description": "Routers, switches, modems, and networking equipment for home and business.",
+    "isActive": true
+  },
+  {
+    "ownerId": "64f1a2b3c4d5e6f7a8b9c0d1",
+    "name": "Accessories",
+    "slug": "accessories",
+    "image": "https://images.unsplash.com/photo-1588508065123-287b28e013da?w=600",
+    "description": "Cables, chargers, cases, power banks, and all kinds of tech accessories.",
+    "isActive": true
+  }
+]

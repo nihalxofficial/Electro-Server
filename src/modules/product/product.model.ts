@@ -2,7 +2,8 @@ import { Schema, model } from "mongoose";
 
 const productSchema = new Schema(
   {
-    title: { type: String, required: true },          
+    ownerId: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    title: { type: String, required: true },
     slug: { type: String, required: true, unique: true },
 
     categoryId: { type: Schema.Types.ObjectId, ref: "Category", required: true },
@@ -21,11 +22,11 @@ const productSchema = new Schema(
     rating: { type: Number },
     reviewCount: { type: Number },
 
-    badges: [{ type: String }],   // plain strings for now, matches current form
+    badges: [{ type: String }],
 
     sku: { type: String },
     description: { type: String },
-    specifications: { type: Map, of: String },  // Record<string, string>
+    specifications: { type: Map, of: String },
     isFeatured: { type: Boolean, default: false },
   },
   { timestamps: true }

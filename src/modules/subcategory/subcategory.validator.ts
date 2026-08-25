@@ -3,6 +3,7 @@ import { z } from "zod";
 const objectId = z.string().regex(/^[0-9a-fA-F]{24}$/, "Invalid category ID");
 
 export const createSubCategorySchema = z.object({
+  ownerId: objectId,
   categoryId: objectId,
   name: z.string().min(1, "Name is required"),
   slug: z

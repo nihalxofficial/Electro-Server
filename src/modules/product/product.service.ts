@@ -37,7 +37,7 @@ export async function getProducts(query: GetProductsQuery) {
 
   const filter: Record<string, any> = {};
   if (categoryId) filter.categoryId = categoryId;
-  if (subCategoryId) filter.subCategoryIds = subCategoryId; 
+  if (subCategoryId) filter.subCategoryIds = subCategoryId;
   if (search) filter.title = { $regex: search, $options: "i" };
   if (minPrice !== undefined || maxPrice !== undefined) {
     filter.price = {};
