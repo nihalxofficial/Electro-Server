@@ -10,7 +10,7 @@ export const createSubCategorySchema = z.object({
     .string()
     .min(1, "Slug is required")
     .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "Slug must be lowercase, hyphen-separated"),
-  image: z.string().url("Image must be a valid URL").optional(),
+  image: z.string().optional(),
   description: z.string().optional(),
   isActive: z.boolean().optional(),
 });
