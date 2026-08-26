@@ -4,14 +4,23 @@ import { Product } from "@/modules/product/product.model";
 import { ApiError } from "@/utils/apiError";
 import { CreateCategoryInput, UpdateCategoryInput } from "./category.validator";
 
+interface GetCategoriesFilter {
+  isActive?: boolean;
+}
+
+
 export async function createCategory(data: CreateCategoryInput) {
   const existing = await Category.findOne({ slug: data.slug });
   if (existing) throw new ApiError(409, "Slug already in use");
   return Category.create(data);
 }
 
-export async function getCategories() {
-  return Category.find().sort({ createdAt: -1 });
+export async function getCategories(filterInput: GetCategoriesFilter = {}) {
+  const filter: Record<string, any> = {};
+  if (filterInput.isActive !== undefined){
+    filter.isActive = filterInput.isActive;
+  } 
+  return Category.find(filter).sort({ createdAt: -1 });
 }
 
 export async function updateCategory(id: string, data: UpdateCategoryInput) {

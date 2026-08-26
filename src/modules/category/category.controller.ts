@@ -8,7 +8,12 @@ export const createCategory = catchAsync(async (req, res) => {
 });
 
 export const getCategories = catchAsync(async (req, res) => {
-  const categories = await categoryService.getCategories();
+  const isActive =
+    req.query.isActive === "true" ? true :
+    req.query.isActive === "false" ? false :
+    undefined;
+
+  const categories = await categoryService.getCategories({ isActive });
   apiResponse(res, 200, categories);
 });
 
