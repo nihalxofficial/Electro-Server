@@ -1,9 +1,8 @@
 import { Product } from "./product.model";
-import { Category } from "@/modules/category/category.model";
-import { SubCategory } from "@/modules/subcategory/subcategory.model";
-import { ApiError } from "@/utils/apiError";
+import { Category } from "../category/category.model";
+import { SubCategory } from "../subcategory/subcategory.model";
+import { ApiError } from "../../utils/apiError";
 import { CreateProductInput, UpdateProductInput, GetProductsQuery } from "./product.validator";
-
 
 function withDiscount(product: any) {
   const obj = product.toObject ? product.toObject() : product;

@@ -1,13 +1,12 @@
 import { Category } from "./category.model";
-import { SubCategory } from "@/modules/subcategory/subcategory.model";
-import { Product } from "@/modules/product/product.model";
-import { ApiError } from "@/utils/apiError";
+import { SubCategory } from "../subcategory/subcategory.model";
+import { Product } from "../product/product.model";
+import { ApiError } from "../../utils/apiError";
 import { CreateCategoryInput, UpdateCategoryInput } from "./category.validator";
 
 interface GetCategoriesFilter {
   isActive?: boolean;
 }
-
 
 export async function createCategory(data: CreateCategoryInput) {
   const existing = await Category.findOne({ slug: data.slug });

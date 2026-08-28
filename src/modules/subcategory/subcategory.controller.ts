@@ -1,5 +1,5 @@
-import { catchAsync } from "@/utils/catchAsync";
-import { apiResponse } from "@/utils/apiResponse";
+import { catchAsync } from "../../utils/catchAsync";
+import { apiResponse } from "../../utils/apiResponse";
 import * as subCategoryService from "./subcategory.service";
 
 export const createSubCategory = catchAsync(async (req, res) => {

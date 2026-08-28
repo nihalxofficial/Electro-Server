@@ -1,7 +1,7 @@
 import { SubCategory } from "./subcategory.model";
-import { Category } from "@/modules/category/category.model";
-import { Product } from "@/modules/product/product.model";
-import { ApiError } from "@/utils/apiError";
+import { Category } from "../category/category.model";
+import { Product } from "../product/product.model";
+import { ApiError } from "../../utils/apiError";
 import { CreateSubCategoryInput, UpdateSubCategoryInput } from "./subcategory.validator";
 
 export async function createSubCategory(data: CreateSubCategoryInput) {

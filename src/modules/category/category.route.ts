@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { validate } from "@/utils/validate";
+import { validate } from "../../utils/validate";
 import { createCategorySchema, updateCategorySchema } from "./category.validator";
 import * as categoryController from "./category.controller";
 

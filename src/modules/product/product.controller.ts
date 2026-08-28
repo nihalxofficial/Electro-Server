@@ -1,6 +1,6 @@
-import { catchAsync } from "@/utils/catchAsync";
-import { apiResponse } from "@/utils/apiResponse";
-import { ApiError } from "@/utils/apiError";
+import { catchAsync } from "../../utils/catchAsync";
+import { apiResponse } from "../../utils/apiResponse";
+import { ApiError } from "../../utils/apiError";
 import * as productService from "./product.service";
 import { getProductsQuerySchema } from "./product.validator";
 

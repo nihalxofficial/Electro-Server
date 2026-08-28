@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { validate } from "@/utils/validate";
+import { validate } from "../../utils/validate";
 import { createProductSchema, updateProductSchema } from "./product.validator";
 import * as productController from "./product.controller";
 

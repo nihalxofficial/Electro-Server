@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { validate } from "@/utils/validate";
+import { validate } from "../../utils/validate";
 import { createSubCategorySchema, updateSubCategorySchema } from "./subcategory.validator";
 import * as subCategoryController from "./subcategory.controller";
 
