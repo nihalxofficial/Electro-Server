@@ -19,11 +19,11 @@ export const getProducts = catchAsync(async (req, res, next) => {
 });
 
 export const updateProduct = catchAsync(async (req, res) => {
-  const product = await productService.updateProduct(req.params.id, req.body);
+  const product = await productService.updateProduct(req.params.id as string, req.body);
   apiResponse(res, 200, product, "Product updated");
 });
 
 export const deleteProduct = catchAsync(async (req, res) => {
-  await productService.deleteProduct(req.params.id);
+  await productService.deleteProduct(req.params.id as string);
   apiResponse(res, 200, null, "Product deleted");
 });

@@ -18,11 +18,11 @@ export const getCategories = catchAsync(async (req, res) => {
 });
 
 export const updateCategory = catchAsync(async (req, res) => {
-  const category = await categoryService.updateCategory(req.params.id, req.body);
+  const category = await categoryService.updateCategory(req.params.id as string, req.body);
   apiResponse(res, 200, category, "Category updated");
 });
 
 export const deleteCategory = catchAsync(async (req, res) => {
-  await categoryService.deleteCategory(req.params.id);
+  await categoryService.deleteCategory(req.params.id as string);
   apiResponse(res, 200, null, "Category deleted");
 });
