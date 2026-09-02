@@ -773,18 +773,17 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Dell XPS 13 Laptop",
-    "slug": "dell-xps-13-laptop-26",
+    "slug": "dell-xps-13-laptop",
     "categoryId": "6a8db951170a99692722dda5",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfc9",
       "6a8ec97bc267612f5edfbfca"
     ],
     "price": 999.0,
-    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800",
+    "image": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/xps-13-9310/xps-13-9310-side-500x500.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800",
-      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
-      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800"
+      "https://www.ryans.com/storage/products/main/dell-xps-13-plus-9320-13th-gen-intel-core-i7-11724233634.webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLeXUGmd-SvlzD7iSiyJn-CkFiZVI78zL-7d4jOhEr4g&s=10"
     ],
     "inStock": false,
     "stockQuantity": 0,
@@ -806,18 +805,16 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Netgear Nighthawk Mesh Router",
-    "slug": "netgear-nighthawk-mesh-router-27",
+    "slug": "netgear-nighthawk-mesh-router",
     "categoryId": "6a8dbf4ea2085f1674cecdf7",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfe1"
     ],
     "price": 179.0,
-    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrm6A2BpHqVmAv5LTDvb9kiscD7uCH7oHJ7ceIL6URzlfDtgw4Ik_KUB4&s=10",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800",
-      "https://images.unsplash.com/photo-1606904825846-647eb07f5be2?w=800",
-      "https://images.unsplash.com/photo-1544428571-49001a94b32b?w=800",
-      "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?w=800"
+      "https://www.netgear-store.hk/cdn/shop/files/MS60_productcarousel_hero_image_tcm148-98522_1.jpg?v=1691646225&width=779",
+      "https://www.netgear-store.hk/cdn/shop/files/Hero_MK92_tcm199-156147_1.jpg?v=1717557255"
     ],
     "inStock": true,
     "stockQuantity": 190,
@@ -839,19 +836,18 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Samsung Galaxy Buds2 Pro",
-    "slug": "samsung-galaxy-buds2-pro-28",
+    "slug": "samsung-galaxy-buds2-pro",
     "categoryId": "6a8dbd75a2085f1674cecdf2",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfd2",
       "6a8ec97bc267612f5edfbfd3"
     ],
     "price": 179.0,
-    "image": "https://images.unsplash.com/photo-1590658006821-08e17ce41865?w=800",
+    "image": "https://www.startech.com.bd/image/cache/catalog/earbuds/samsung/galaxy-buds2-pro/galaxy-buds2-pro-black-01-500x500.webp",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1590658006821-08e17ce41865?w=800",
-      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800",
-      "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=800",
-      "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbd?w=800"
+      "https://images.samsung.com/bd/galaxy-buds2-pro/feature//galaxy-buds2-pro-kv-mo.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrJSFw9-9W6YnjFjPrB6diVn8VHc83s4V11yvuo4R1f6LkH7Lay6pg2UM&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD5u8AMH0keurR1p9aBTNYS0Fat2D-lJf9nGF_40r9CECWkyykujBKMsA&s=10v"
     ],
     "inStock": true,
     "stockQuantity": 44,
@@ -871,17 +867,16 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Philips Hue Smart Bulb Starter Kit",
-    "slug": "philips-hue-smart-bulb-starter-kit-29",
+    "slug": "philips-hue-smart-bulb-starter-kit",
     "categoryId": "6a8dbe87a2085f1674cecdf5",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfdd"
     ],
     "price": 89.99,
-    "image": "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=800",
+    "image": "https://www.assets.signify.com/is/image/Signify/046677563080-929002469109-Philips-Hue_W-10_5W-A19-E26-2set-US-RTP",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=800",
-      "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?w=800",
-      "https://images.unsplash.com/photo-1517502884422-41eaead166d4?w=800"
+      "https://www.assets.signify.com/is/image/Signify/046677592035-929003853808-Hue-WCA-1100-A19-E26-3-KIT-td-v3-NAM-WHITE-RTP?wid=672&hei=504&$jpglarge$",
+      "https://www.assets.signify.com/is/image/Signify/8721103108357-929002468916-Philips-HueWCA-9W-A60-B22-2KIT-sb-UK-RTP?wid=672&hei=504&$jpglarge$"
     ],
     "inStock": true,
     "stockQuantity": 62,
@@ -901,19 +896,18 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Sony PlayStation 5 Slim",
-    "slug": "sony-playstation-5-slim-30",
+    "slug": "sony-playstation-5-slim",
     "categoryId": "6a8dbdc0a2085f1674cecdf3",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfd4",
       "6a8ec97bc267612f5edfbfd7"
     ],
     "price": 499.0,
-    "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800",
+    "image": "https://www.startech.com.bd/image/cache/catalog/gaming-console/playstation/playstation-5-analog-console-slim-edition/playstation-5-analog-console-slim-edition-01-500x500.webp",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800",
-      "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=800",
-      "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=800",
-      "https://images.unsplash.com/photo-1592155931584-901ac15763e3?w=800"
+      "https://www.ryans.com/storage/products/main/sony-ps5-slim-digital-edition-black-white-11701259811.webp",
+      "https://www.startech.com.bd/image/cache/catalog/gaming-console/playstation/playstation-5-analog-console-slim-edition/playstation-5-analog-console-slim-edition-02-500x500.webp",
+      "https://i5.walmartimages.com/asr/fe290a26-8640-4f5f-8027-e608a1b549ad.69c307a933c0fae8e8ea8246d89664ff.jpeg"
     ],
     "inStock": true,
     "stockQuantity": 21,
