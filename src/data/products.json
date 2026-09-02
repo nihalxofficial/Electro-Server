@@ -615,7 +615,7 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Samsung Galaxy S24 Ultra",
-    "slug": "samsung-galaxy-s24-ultra-21",
+    "slug": "samsung-galaxy-s24-ultra",
     "categoryId": "6a8dbb6ba2085f1674cecdf1",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfcd",
@@ -623,12 +623,10 @@
       "6a8ec97bc267612f5edfbfd0"
     ],
     "price": 1199.0,
-    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800",
+    "image": "https://sourceofproduct.com/wp-content/uploads/2024/01/Galaxy-S24-Ultra-2.jpeg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800",
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800",
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800",
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800"
+      "https://images.samsung.com/bd/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-kv.jpg?imbypass=true",
+      "https://dazzle.sgp1.cdn.digitaloceanspaces.com/47729/Samsung-Galaxy-S24-Ultra-price-in-Bangladesh-Titanium-Green.jpg"
     ],
     "inStock": false,
     "stockQuantity": 3,
@@ -650,7 +648,7 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "PS5 DualSense Controller",
-    "slug": "ps5-dualsense-controller-22",
+    "slug": "ps5-dualsense-controller",
     "categoryId": "6a8dbdc0a2085f1674cecdf3",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfd5",
@@ -658,11 +656,11 @@
       "6a8ec97bc267612f5edfbfd4"
     ],
     "price": 69.99,
-    "image": "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=800",
+    "image": "https://assets.gadgetandgear.com/upload/product/20220113_1642052594_412206.jpeg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=800",
-      "https://images.unsplash.com/photo-1592840062661-a5a7f78e2056?w=800",
-      "https://images.unsplash.com/photo-1591105575633-922c8b96ecdd?w=800"
+      "https://www.startech.com.bd/image/cache/catalog/game-pad/sony/dualsense/dualsense-02-500x500.jpg",
+      "https://www.ryans.com/storage/products/main/sony-playstation-dualsense-edge-midnight-black-21742466825.webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKVp5mUmK9VzDM0h2ON0j45oU21nt-9wJVo-DpGEIWHJuibRUtT89hzYc&s=10"
     ],
     "inStock": true,
     "stockQuantity": 25,
@@ -684,18 +682,17 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Motorola MB8611 Cable Modem",
-    "slug": "motorola-mb8611-cable-modem-23",
+    "slug": "motorola-mb8611-cable-modem",
     "categoryId": "6a8dbf4ea2085f1674cecdf7",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfe2",
       "6a8ec97bc267612f5edfbfe3"
     ],
     "price": 129.0,
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800",
+    "image": "https://m.media-amazon.com/images/I/51lAHKiXLTL.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800",
-      "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=800",
-      "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?w=800"
+      "https://m.media-amazon.com/images/I/71dcu09F-UL.jpg",
+      "https://9to5toys.com/wp-content/uploads/sites/5/2021/06/Motorola-DOCSIS-3.1-Cable-Modem.jpg?quality=82&strip=all&w=1600"
     ],
     "inStock": true,
     "stockQuantity": 57,
@@ -713,7 +710,7 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Google Pixel 8 Pro",
-    "slug": "google-pixel-8-pro-24",
+    "slug": "google-pixel-8-pro",
     "categoryId": "6a8dbb6ba2085f1674cecdf1",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfcd",
@@ -721,12 +718,10 @@
       "6a8ec97bc267612f5edfbfcf"
     ],
     "price": 899.0,
-    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800",
+    "image": "https://www.mobileguruaustralia.com.au/wp-content/uploads/2025/01/Google-Pixel-8-Pro.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800",
-      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800",
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800",
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800"
+      "https://sourceofproduct.com/wp-content/uploads/2025/03/Pixel-8-Pro-Price-In-Bangladesh-3.webp",
+      "https://sourceofproduct.com/wp-content/uploads/2025/03/Google-Pixel-8-Pro-Bay.webp"
     ],
     "inStock": true,
     "stockQuantity": 158,
@@ -744,7 +739,7 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "USB-C to HDMI Adapter",
-    "slug": "usb-c-to-hdmi-adapter-25",
+    "slug": "usb-c-to-hdmi-adapter",
     "categoryId": "6a8dbfc4a2085f1674cecdf8",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfe4",
@@ -752,11 +747,11 @@
       "6a8ec97bc267612f5edfbfe5"
     ],
     "price": 19.99,
-    "image": "https://images.unsplash.com/photo-1588508065123-287b28e013da?w=800",
+    "image": "https://www.startech.com.bd/image/cache/catalog/cable/ugreen/ugreen-usb-c-to-hdmi-female-adapter/usb-c-to-hdmi-female-adapter-500x500.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1588508065123-287b28e013da?w=800",
-      "https://images.unsplash.com/photo-1591290619762-c5cfef893f42?w=800",
-      "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=800"
+      "https://www.startech.com.bd/image/cache/catalog/adapter/ugreen/usb-type-c-to-hdmi/usb-type-c-to-hdmi-01-500x500.jpg",
+      "https://assets.gadgetandgear.com/upload/product/20200928_1601282206_206721.jpeg",
+      "https://www.startech.com.bd/image/cache/catalog/adapter/vention/acyhb/acyhb-01-500x500.webp"
     ],
     "inStock": true,
     "stockQuantity": 111,
