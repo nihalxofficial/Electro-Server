@@ -305,17 +305,16 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "15.6\" Laptop Backpack",
-    "slug": "15.6-laptop-backpack-11",
+    "slug": "15.6-laptop-backpack",
     "categoryId": "6a8dbfc4a2085f1674cecdf8",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfe7"
     ],
     "price": 44.99,
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+    "image": "https://media.startech.com/cms/products/gallery_large/ntbkbag156.main.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
-      "https://images.unsplash.com/photo-1622560481156-01a4b17e8c6e?w=800",
-      "https://images.unsplash.com/photo-1547949003-9792a18a2645?w=800"
+      "https://bd-live-21.slatic.net/kf/Sc226a2b6152246849828bc5d6d60b8eb7.jpg",
+      "https://img.drz.lazcdn.com/g/kf/Sad39516004f3423faa4ad14ffbb33ea7n.jpg_720x720q80.jpg"
     ],
     "inStock": true,
     "stockQuantity": 88,
@@ -335,19 +334,18 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Razer BlackShark V2",
-    "slug": "razer-blackshark-v2-12",
+    "slug": "razer-blackshark-v2",
     "categoryId": "6a8dbdc0a2085f1674cecdf3",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfd6",
       "6a8ec97bc267612f5edfbfd5"
     ],
     "price": 99.0,
-    "image": "https://images.unsplash.com/photo-1599669454699-248893623440?w=800",
+    "image": "https://zamve.com/wp-content/uploads/2024/06/Razer-BlackShark-V2-X-from-Zamve-Online-Gaming-Headphone-Shop-BD.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1599669454699-248893623440?w=800",
-      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=800",
-      "https://images.unsplash.com/photo-1618366712014-6f0ff2967f8d?w=800",
-      "https://images.unsplash.com/photo-1526406915894-7bcd65f60845?w=800"
+      "https://www.pqs.com.bd/image/cache/catalog/headphone/razer/blackshark-v2-x-green/blackshark-v2-x-green-01-500x500.jpg",
+      "https://vibegaming.com.bd/wp-content/uploads/2023/06/razer-blackshark-v2-x-headset-green-1.jpg",
+      "https://www.startech.com.bd/image/cache/catalog/headphone/razer/blackshark-v2/blackshark-v2-3-500x500.jpg"
     ],
     "inStock": true,
     "stockQuantity": 146,
@@ -367,19 +365,18 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Dell 24\" Full HD Monitor",
-    "slug": "dell-24-full-hd-monitor-13",
+    "slug": "dell-24-full-hd-monitor",
     "categoryId": "6a8db951170a99692722dda5",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfcc",
       "6a8ec97bc267612f5edfbfca"
     ],
     "price": 179.0,
-    "image": "https://images.unsplash.com/photo-1586210579191-33b45e38fa2c?w=800",
+    "image": "https://www.ryans.com/storage/products/main/dell-se2419hr-24-inch-full-hd-led-monitor-vga-11582521889.webp",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1586210579191-33b45e38fa2c?w=800",
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800",
-      "https://images.unsplash.com/photo-1616763355603-9755a640a287?w=800",
-      "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=800"
+      "https://www.eit.com.bd/storage/images/OM_17561040341CtjVuMf.jpg",
+      "https://www.eit.com.bd/storage/images/OM_1754826561YMw59P3d.webp",
+      "https://cdn.bdstall.com/product-image/giant_128149.jpg"
     ],
     "inStock": false,
     "stockQuantity": 5,
@@ -399,17 +396,17 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "JBL Flip 6 Portable Speaker",
-    "slug": "jbl-flip-6-portable-speaker-14",
+    "slug": "jbl-flip-6-portable-speaker",
     "categoryId": "6a8dbd75a2085f1674cecdf2",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfd3"
     ],
     "price": 129.0,
-    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6JonZdSHDn-mkee__UwdK91jhKNHpPLT-maVfLDJTp0v2DdFoZDPJ4jCk&s=10",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800",
-      "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800",
-      "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=800"
+      "https://rangsemart.com.bd/upload/ProductGallery/1766590030084340.png",
+      "https://www.ryans.com/storage/products/main/jbl-flip-6-waterproof-green-portable-bluetooth-11663831810.webp",
+      "https://rangsemart.com.bd/upload/ProductGallery/1766590030384340.png"
     ],
     "inStock": true,
     "stockQuantity": 160,
@@ -431,18 +428,17 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Leather Wallet Phone Case",
-    "slug": "leather-wallet-phone-case-15",
+    "slug": "leather-wallet-phone-case",
     "categoryId": "6a8dbb6ba2085f1674cecdf1",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfd0",
       "6a8ec97bc267612f5edfbfcf"
     ],
     "price": 29.99,
-    "image": "https://images.unsplash.com/photo-1601593346740-925612772716?w=800",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfCFQODNAF5b2n0mr-RFR4G4eTrR9kprfs_Ew-JE7MZQo7s313YPrtA0Q&s=10",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1601593346740-925612772716?w=800",
-      "https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=800",
-      "https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=800"
+      "https://bd-4.edkncdn.net/img/600x600/stores/6811248be7076f7ef97cafd1/product-%5Bobject%20Object%5D/1760297184388-JyIUsegyxXgP-dwugnziz/O1CN01EZ19wJ1qFwNvPHdp6_!!2485725467-0-cib.webp",
+      "https://screenhug.co.nz/cdn/shop/files/17ProMagWalletBK1.jpg?v=1763660786&width=360"
     ],
     "inStock": true,
     "stockQuantity": 28,
@@ -464,18 +460,17 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Dell OptiPlex All-in-One PC",
-    "slug": "dell-optiplex-all-in-one-pc-16",
+    "slug": "dell-optiplex-all-in-one-pc",
     "categoryId": "6a8db951170a99692722dda5",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfcb",
       "6a8ec97bc267612f5edfbfc9"
     ],
     "price": 949.0,
-    "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=800",
+    "image": "https://www.startech.com.bd/image/cache/catalog/all-in-one-pc/Dell/optiplex-24-7480/optiplex-24-7480-500x500.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=800",
-      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=800",
-      "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=800"
+      "https://www.startech.com.bd/image/cache/catalog/desktop-pc/all-in-one/dell/optiplex-5400/optiplex-5400-01-500x500.webp",
+      "https://www.techlandbd.com/cache/images/uploads/products/P0032601005/dell-all-in-one-ec24250-cover.webp"
     ],
     "inStock": true,
     "stockQuantity": 157,
@@ -496,17 +491,16 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "MacBook Air M2 13-inch",
-    "slug": "macbook-air-m2-13-inch-17",
+    "slug": "macbook-air-m2-13-inch",
     "categoryId": "6a8db951170a99692722dda5",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfc9"
     ],
     "price": 1099.0,
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+    "image": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air-m2-chip/macbook-air-m2-chip-01-500x500.webp",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800",
-      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800"
+      "https://sourceofproduct.com/wp-content/uploads/2025/04/apple-macbook-air-m2-chip-space-grey-8-256gb-102101.jpeg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0qGgfUEyjzQ1ygSfPfXLHiEOclo5S5hudWrz94sd7LtO6QVnIk7TQNB3F&s=10"
     ],
     "inStock": true,
     "stockQuantity": 115,
@@ -527,18 +521,18 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Bose QuietComfort 45",
-    "slug": "bose-quietcomfort-45-18",
+    "slug": "bose-quietcomfort-45",
     "categoryId": "6a8dbd75a2085f1674cecdf2",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfd1",
       "6a8ec97bc267612f5edfbfd3"
     ],
     "price": 279.0,
-    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800",
+    "image": "https://www.ryans.com/storage/products/main/bose-quietcomfort-45-limited-edition-midnight-11681645724.webp",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800",
-      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800",
-      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800"
+      "https://diamu.com.bd/wp-content/uploads/2024/09/Bose-QuietComfort-Headphones-3.jpg",
+      "https://www.ryans.com/storage/products/main/bose-quietcomfort-45-black-bluetooth-headphone-1-11741081845.webp",
+      "https://www.ryans.com/storage/products/main/bose-quietcomfort-45-black-bluetooth-headphone-1-41741081850.webp"
     ],
     "inStock": true,
     "stockQuantity": 73,
@@ -560,17 +554,16 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Fitbit Charge 6",
-    "slug": "fitbit-charge-6-19",
+    "slug": "fitbit-charge-6",
     "categoryId": "6a8dbef7a2085f1674cecdf6",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfdf"
     ],
     "price": 159.0,
-    "image": "https://images.unsplash.com/photo-1575311373937-919de0d02fe0?w=800",
+    "image": "https://diamu.com.bd/wp-content/uploads/2023/11/Fitbit-Charge-6-Premium-Fitness-Tracker.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1575311373937-919de0d02fe0?w=800",
-      "https://images.unsplash.com/photo-1557166983-5939644443a6?w=800",
-      "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=800"
+      "https://dazzle.com.bd/_next/image?url=https%3A%2F%2Fdazzle.sgp1.cdn.digitaloceanspaces.com%2F80770%2Fgoogle-fitbit-charge-6-Price-in-Bangladesh--(2).jpg&w=640&q=75",
+      "https://www.gadstyle.com/wp-content/uploads/2025/08/Fitbit-Charge-6-red-7902.webp"
     ],
     "inStock": false,
     "stockQuantity": 3,
@@ -590,7 +583,7 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Apple Watch Series 9",
-    "slug": "apple-watch-series-9-20",
+    "slug": "apple-watch-series-9",
     "categoryId": "6a8dbef7a2085f1674cecdf6",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfde",
@@ -598,12 +591,10 @@
       "6a8ec97bc267612f5edfbfe0"
     ],
     "price": 399.0,
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800",
+    "image": "https://dazzle.sgp1.cdn.digitaloceanspaces.com/19028/Midnight-Aluminium-Case-with-Midnight-Sport-Band.png",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800",
-      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800",
-      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800",
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800"
+      "https://www.ryans.com/storage/products/main/apple-watch-series-9-41mm-gps-midnight-aluminum-11701492085.webp",
+      "https://cdn.shopz.com.bd/2024/12/Apple-Watch-Series-9-Starlight.jpg"
     ],
     "inStock": true,
     "stockQuantity": 52,
