@@ -925,19 +925,18 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Sonos Move 2",
-    "slug": "sonos-move-2-31",
+    "slug": "sonos-move-2",
     "categoryId": "6a8dbd75a2085f1674cecdf2",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfd3",
       "6a8ec97bc267612f5edfbfd1"
     ],
     "price": 399.0,
-    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800",
+    "image": "https://dazzle.sgp1.cdn.digitaloceanspaces.com/25793/Sonos-Move-2-Portable-Smart-Speaker-black.png",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800",
-      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800",
-      "https://images.unsplash.com/photo-1589003077984-894e133dabab?w=800",
-      "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=800"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1-z5fEfbmX11QypUO7qtdsmSATbgIbw0k-0x97I1AMA&s",
+      "https://media.sonos.com/images/znqtjj88/production/87fc972450af234d9423900b5183a7dab9ed2de1-1280x1280.png?w=3840&q=100&fit=clip&auto=format",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTl_vhpLbBrz-7VGFmnYlwMczy-gC-WpMBXJyyKoU6pXp7KmVGgnR9KcaM&s=10"
     ],
     "inStock": true,
     "stockQuantity": 153,
@@ -957,18 +956,17 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Apple iPhone 15 Pro 256GB",
-    "slug": "apple-iphone-15-pro-256gb-32",
+    "slug": "apple-iphone-15-pro-256gb",
     "categoryId": "6a8dbb6ba2085f1674cecdf1",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfce"
     ],
     "price": 999.0,
-    "image": "https://images.unsplash.com/photo-1592286927505-1def25115558?w=800",
+    "image": "https://www.jbhifi.com.au/cdn/shop/files/39f406deffc44dc09fe3b0a9716a35cb_c9380a6b-44e8-4bae-a46c-27c5fa88f26d.jpg?v=1731628121",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1592286927505-1def25115558?w=800",
-      "https://images.unsplash.com/photo-1678652197831-2d180705cd2c?w=800",
-      "https://images.unsplash.com/photo-1632661674596-618e45d2eba9?w=800",
-      "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=800"
+      "https://www.jbhifi.com.au/cdn/shop/files/119d8c1d08fd4efc894871643e2c3e15_aee58535-97c8-4427-a35b-b26c6586a2b7.jpg?v=1731628037",
+      "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone_15_pro.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl2CAmIUq0mTs7u0R0tZ5bmcMuffzjXIGMgwPH2PRe3A&s=10"
     ],
     "inStock": true,
     "stockQuantity": 42,
@@ -986,18 +984,17 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Apple 20W USB-C Power Adapter",
-    "slug": "apple-20w-usb-c-power-adapter-33",
+    "slug": "apple-20w-usb-c-power-adapter",
     "categoryId": "6a8dbfc4a2085f1674cecdf8",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfe5",
       "6a8ec97bc267612f5edfbfe4"
     ],
     "price": 19.99,
-    "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800",
+    "image": "https://www.startech.com.bd/image/cache/catalog/adapter/apple/mhjf3ze/apple-20w-usb-c-power-adapter-01-500x500.webp",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800",
-      "https://images.unsplash.com/photo-1591290619762-c5cfef893f42?w=800",
-      "https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?w=800"
+      "https://shop.deximpo.com.bd/wp-content/uploads/2023/12/Apple-20W-USB-C-Power-Adapter-2.jpeg",
+      "https://adminapi.applegadgetsbd.com/storage/media/large/Apple-20W-USB-C-Power-Adapter-with-USB-C-to-Lightning-Cable---1m-(2)-2373.jpg"
     ],
     "inStock": true,
     "stockQuantity": 153,
@@ -1020,18 +1017,18 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Xbox Wireless Controller",
-    "slug": "xbox-wireless-controller-34",
+    "slug": "xbox-wireless-controller",
     "categoryId": "6a8dbdc0a2085f1674cecdf3",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfd5",
       "6a8ec97bc267612f5edfbfd6"
     ],
     "price": 59.99,
-    "image": "https://images.unsplash.com/photo-1592840062661-a5a7f78e2056?w=800",
+    "image": "https://www.startech.com.bd/image/cache/catalog/game-pad/microsoft/xbox-wireless/xbox-wireless-1-500x500.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1592840062661-a5a7f78e2056?w=800",
-      "https://images.unsplash.com/photo-1600861194942-f883de0dfe96?w=800",
-      "https://images.unsplash.com/photo-1591105575633-922c8b96ecdd?w=800"
+      "https://diamu.com.bd/wp-content/uploads/2022/07/Xbox-Elite-Wireless-Controller-Series-2.jpg",
+      "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Xbox-Wireless-Controller_Hero-0_Carbon-Black_3000x1682:VP1-539x440",
+      "https://www.startech.com.bd/image/cache/catalog/game-pad/microsoft/xbox-wireless/xbox-wireless-02-500x500.webp"
     ],
     "inStock": true,
     "stockQuantity": 198,
@@ -1051,7 +1048,7 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Ring Indoor Cam",
-    "slug": "ring-indoor-cam-35",
+    "slug": "ring-indoor-cam",
     "categoryId": "6a8dbe87a2085f1674cecdf5",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfdc",
@@ -1059,11 +1056,10 @@
       "6a8ec97bc267612f5edfbfdb"
     ],
     "price": 59.99,
-    "image": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=800",
+    "image": "https://images.ctfassets.net/a3peezndovsu/6Ph0b0LOkcUjIqrLW0f7Fc/a1ee1eb02094855c0e87e48d73167905/ring_pantilt_indoor_cam_white_1500x1500.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=800",
-      "https://images.unsplash.com/photo-1558002038-1055907df827?w=800",
-      "https://images.unsplash.com/photo-1580745294621-77e17ea28dd4?w=800"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEXv8TrEOFcvLFSP8oBAjL-98kYDwzUG5whpyZc4uFoPmPrFZhhkonCEE&s=10",
+      "https://media.4rgos.it/i/Argos/3379893_R_Z001A?w=750&h=440&qlt=70"
     ],
     "inStock": true,
     "stockQuantity": 19,
@@ -1084,19 +1080,18 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Xbox Series X",
-    "slug": "xbox-series-x-36",
+    "slug": "xbox-series-x",
     "categoryId": "6a8dbdc0a2085f1674cecdf3",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfd4",
       "6a8ec97bc267612f5edfbfd6"
     ],
     "price": 499.0,
-    "image": "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=800",
+    "image": "https://www.startech.com.bd/image/cache/catalog/gaming-console/microsoft/xbox-series-x/xbox-series-x-white-01-500x500.webp",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=800",
-      "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800",
-      "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=800",
-      "https://images.unsplash.com/photo-1592155931584-901ac15763e3?w=800"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdps9nYbZqjevG7DFq-j6QFpZaKibGxmFJHXrwZvayRp713ikeFNpm09Ha&s=10",
+      "https://cms-assets.xboxservices.com/assets/26/50/26500f30-57c2-4357-a66a-967b4b5a632a.png?n=374862923_Hero-Gallery-0_01_857x676_02.png",
+      "https://img.drz.lazcdn.com/static/bd/p/0d63ab9df0512fa261239836963b9efe.jpg_720x720q80.jpg_.webp"
     ],
     "inStock": true,
     "stockQuantity": 81,
@@ -1114,50 +1109,47 @@
     "discountPercentage": 23
   },
   {
-    "ownerId": "6a8d9abc9bd8b81623612579",
-    "title": "Oura Ring Gen 3",
-    "slug": "oura-ring-gen-3-37",
-    "categoryId": "6a8dbef7a2085f1674cecdf6",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfe0",
-      "6a8ec97bc267612f5edfbfde"
-    ],
-    "price": 299.0,
-    "image": "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=800",
-    "additionalImages": [
-      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=800",
-      "https://images.unsplash.com/photo-1602751584547-4a4b6c6a4a1a?w=800",
-      "https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?w=800",
-      "https://images.unsplash.com/photo-1526406915894-7bcd65f60845?w=800"
-    ],
-    "inStock": true,
-    "stockQuantity": 94,
-    "badges": [],
-    "sku": "ELX-OURARING-037",
-    "description": "Discreet health tracking ring for sleep and readiness insights.",
-    "specifications": {
-      "Brand": "Oura",
-      "Category": "Wearables",
-      "Subcategory": "Smart Rings",
-      "Warranty": "1 Year Limited Warranty"
-    },
-    "isFeatured": true
+  "ownerId": "6a8d9abc9bd8b81623612579",
+  "title": "Garmin Venu 3 Smartwatch",
+  "slug": "garmin-venu-3-smartwatch",
+  "categoryId": "6a8dbef7a2085f1674cecdf6",
+  "subCategoryIds": [
+    "6a8ec97bc267612f5edfbfde"
+  ],
+  "price": 449.99,
+  "image": "https://res.garmin.com/transform/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/Product_Images/en/products/010-02784-01/v/rf-xl?pgw=1",
+  "additionalImages": [
+    "https://res.garmin.com/transform/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/Product_Images/en/products/010-02784-01/v/pd-04-xl?pgw=1",
+    "https://res.garmin.com/transform/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/Product_Images/en/products/010-02784-00/v/cf-xl?pgw=1",
+    "https://res.garmin.com/transform/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/Product_Images/en/products/010-02785-04/v/cf-xl?pgw=1"
+  ],
+  "inStock": true,
+  "stockQuantity": 58,
+  "badges": ["new"],
+  "sku": "ELX-GARMINVEN-052",
+  "description": "GPS smartwatch with advanced sleep coaching and up to 14 days of battery life.",
+  "specifications": {
+    "Brand": "Garmin",
+    "Category": "Wearables",
+    "Subcategory": "Smartwatches",
+    "Warranty": "1 Year Limited Warranty"
+  },
+  "isFeatured": true
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "HP Pavilion 15",
-    "slug": "hp-pavilion-15-38",
+    "slug": "hp-pavilion-15",
     "categoryId": "6a8db951170a99692722dda5",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfc9",
       "6a8ec97bc267612f5edfbfcb"
     ],
     "price": 649.0,
-    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800",
+    "image": "https://kaas.hpcloud.hp.com/PROD/v2/renderbinary/6338340/6344509/con-win-nb-p-felicette-22c1-hp-pavilion-laptop-15-eh2000-specification/con-nb-felicitte-hp-pavilion-laptop-15-eh2000-product-image",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800",
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800",
-      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+      "https://vibegaming.com.bd/wp-content/uploads/2023/03/HP-Pavilion-15-EG2074TU-3.jpg.webp",
+      "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/pavilion-15-eg2116tu/pavilion-15-eg2116tu-02-500x500.webp"
     ],
     "inStock": true,
     "stockQuantity": 90,
@@ -1180,18 +1172,17 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "LG 65\" OLED Smart TV",
-    "slug": "lg-65-oled-smart-tv-39",
+    "slug": "lg-65-oled-smart-tv",
     "categoryId": "6a8dbe2da2085f1674cecdf4",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfd8",
       "6a8ec97bc267612f5edfbfda"
     ],
     "price": 1499.0,
-    "image": "https://images.unsplash.com/photo-1461151304267-38535e780c79?w=800",
+    "image": "https://www.lg.com/bd/images/tvs/md07542232/gallery/medium01.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1461151304267-38535e780c79?w=800",
-      "https://images.unsplash.com/photo-1593359677879-a4bb92f829e1?w=800",
-      "https://images.unsplash.com/photo-1571415060716-ba0d5c1f6d5f?w=800"
+      "https://shamimelectronics.com/storage/app/public/product/meta/2025-07-21-687e2395c0c59.png",
+      "https://www.startech.com.bd/image/cache/catalog/television/lg-tv/lg-bx/lg-bx-01-500x500.jpg"
     ],
     "inStock": true,
     "stockQuantity": 147,
@@ -1211,19 +1202,19 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "LIFX Smart LED Bulb",
-    "slug": "lifx-smart-led-bulb-40",
+    "slug": "lifx-smart-led-bulb",
     "categoryId": "6a8dbe87a2085f1674cecdf5",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfdd",
       "6a8ec97bc267612f5edfbfdb"
     ],
     "price": 39.99,
-    "image": "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=800",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFMIDM2wK4hUZx5ljYLEiF_61V6gJD4_MlIE-s9m8aulWkLrIfLVCamIs&s=10",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=800",
-      "https://images.unsplash.com/photo-1524634126442-357e0eac3c14?w=800",
+      "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1594970895-31EoMJhC2bL.jpg?crop=1xw:1.00xh;center,top&resize=980:*",
+      "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2017/08/LIFX-Plus-Connected-Wi-Fi-Lighting-A19-Screw-Lamp-Lit-Texture_1024x1024.jpg?q=50&fit=crop&w=670&dpr=1.5",
       "https://images.unsplash.com/photo-1517502884422-41eaead166d4?w=800",
-      "https://images.unsplash.com/photo-1526406915894-7bcd65f60845?w=800"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIAWUjIIOPPiE59F3HyoO38aTI8lgSjQFnoDCar9DjjlWWVLZHlRiiRoLx&s=10"
     ],
     "inStock": true,
     "stockQuantity": 89,
