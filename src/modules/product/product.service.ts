@@ -4,13 +4,28 @@ import { SubCategory } from "../subcategory/subcategory.model";
 import { ApiError } from "../../utils/apiError";
 import { CreateProductInput, UpdateProductInput, GetProductsQuery } from "./product.validator";
 
-function withDiscount(product: any) {
+function escapeRegex(str: string) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+// Adds computed fields (id, discountPercentage, categories)
+function formatProduct(product: any) {
   const obj = product.toObject ? product.toObject() : product;
+
   const discountPercentage =
     obj.originalPrice && obj.originalPrice > obj.price
       ? Math.round(((obj.originalPrice - obj.price) / obj.originalPrice) * 100)
       : undefined;
-  return { ...obj, discountPercentage };
+
+  const categoryName = obj.categoryId?.name || obj.specifications?.Category || "";
+  const categories = categoryName ? [categoryName] : [];
+
+  return {
+    ...obj,
+    id: obj._id?.toString() ?? obj.id,
+    categories,
+    discountPercentage,
+  };
 }
 
 export async function createProduct(data: CreateProductInput) {
@@ -28,30 +43,96 @@ export async function createProduct(data: CreateProductInput) {
   if (existing) throw new ApiError(409, "Slug already in use");
 
   const product = await Product.create(data);
-  return withDiscount(product);
+  return formatProduct(product);
 }
 
 export async function getProducts(query: GetProductsQuery) {
-  const { categoryId, subCategoryId, search, minPrice, maxPrice, page, limit } = query;
+  const { category, subCategory, search, minPrice, maxPrice, isFeatured, inStock, sort, page, limit } = query;
+  const conditions: any[] = [];
 
-  const filter: Record<string, any> = {};
-  if (categoryId) filter.categoryId = categoryId;
-  if (subCategoryId) filter.subCategoryIds = subCategoryId;
-  if (search) filter.title = { $regex: search, $options: "i" };
-  if (minPrice !== undefined || maxPrice !== undefined) {
-    filter.price = {};
-    if (minPrice !== undefined) filter.price.$gte = minPrice;
-    if (maxPrice !== undefined) filter.price.$lte = maxPrice;
+  // 1. Filter by category (by slug or name)
+  if (category) {
+    const cat = await Category.findOne({ $or: [{ slug: category }, { name: category }] });
+    const catName = cat?.name || category.replace(/-/g, " ");
+    const catRegex = new RegExp(`^${escapeRegex(catName)}$`, "i");
+
+    const catOr: any[] = [
+      { "specifications.Category": catRegex },
+      { "specifications.category": catRegex },
+    ];
+    if (cat) catOr.push({ categoryId: cat._id });
+
+    conditions.push({ $or: catOr });
   }
 
+  // 2. Filter by subcategory (by slug or name)
+  if (subCategory) {
+    const sub = await SubCategory.findOne({ $or: [{ slug: subCategory }, { name: subCategory }] });
+    const subName = sub?.name || subCategory.replace(/-/g, " ");
+    const subRegex = new RegExp(`^${escapeRegex(subName)}$`, "i");
+
+    const subOr: any[] = [
+      { "specifications.Subcategory": subRegex },
+      { "specifications.subcategory": subRegex },
+    ];
+    if (sub) subOr.push({ subCategoryIds: sub._id });
+
+    conditions.push({ $or: subOr });
+  }
+
+  // 3. Search across title, description, badges, and specifications
+  if (search?.trim()) {
+    const searchRegex = new RegExp(escapeRegex(search.trim()), "i");
+    conditions.push({
+      $or: [
+        { title: searchRegex },
+        { description: searchRegex },
+        { badges: searchRegex },
+        { "specifications.$**": searchRegex },
+      ],
+    });
+  }
+
+  // 4. Price range filter
+  if (minPrice !== undefined || maxPrice !== undefined) {
+    const priceFilter: Record<string, number> = {};
+    if (minPrice !== undefined) priceFilter.$gte = minPrice;
+    if (maxPrice !== undefined) priceFilter.$lte = maxPrice;
+    conditions.push({ price: priceFilter });
+  }
+
+  // 5. Boolean filters
+  if (isFeatured !== undefined) conditions.push({ isFeatured });
+  if (inStock !== undefined) conditions.push({ inStock });
+
+  const filter = conditions.length > 0 ? { $and: conditions } : {};
+
+  // 6. Sorting
+  const sortMap: Record<string, Record<string, 1 | -1>> = {
+    price_asc: { price: 1 },
+    price_desc: { price: -1 },
+    rating: { rating: -1 },
+    featured: { isFeatured: -1, createdAt: -1 },
+    newest: { createdAt: -1 },
+  };
+  const sortCriteria = sortMap[sort ?? ""] ?? { createdAt: -1 };
+
+  // 7. Pagination with populated category and subcategories
   const skip = (page - 1) * limit;
+
   const [products, total] = await Promise.all([
-    Product.find(filter).sort({ createdAt: -1 }).skip(skip).limit(limit),
+    Product.find(filter)
+      .populate("categoryId", "name slug")
+      .populate("subCategoryIds", "name slug")
+      .sort(sortCriteria)
+      .skip(skip)
+      .limit(limit),
     Product.countDocuments(filter),
   ]);
 
   return {
-    products: products.map(withDiscount),
+    products: products.map(formatProduct),
+    total,
     pagination: { page, limit, total, totalPages: Math.ceil(total / limit) },
   };
 }
@@ -59,7 +140,7 @@ export async function getProducts(query: GetProductsQuery) {
 export async function updateProduct(id: string, data: UpdateProductInput) {
   const product = await Product.findByIdAndUpdate(id, data, { new: true });
   if (!product) throw new ApiError(404, "Product not found");
-  return withDiscount(product);
+  return formatProduct(product);
 }
 
 export async function deleteProduct(id: string) {

@@ -33,11 +33,24 @@ export const createProductSchema = z.object({
 export const updateProductSchema = createProductSchema.partial();
 
 export const getProductsQuerySchema = z.object({
-  categoryId: objectId.optional(),
-  subCategoryId: objectId.optional(),
+  category: z.string().optional(),
+  categoryId: z.string().optional(),
+  subCategory: z.string().optional(),
+  subCategoryId: z.string().optional(),
   search: z.string().optional(),
   minPrice: z.coerce.number().nonnegative().optional(),
   maxPrice: z.coerce.number().nonnegative().optional(),
+  isFeatured: z
+    .preprocess(
+      (v) => (v === "true" || v === true ? true : v === "false" || v === false ? false : undefined),
+      z.boolean().optional()
+    ),
+  inStock: z
+    .preprocess(
+      (v) => (v === "true" || v === true ? true : v === "false" || v === false ? false : undefined),
+      z.boolean().optional()
+    ),
+  sort: z.string().optional(),
   page: z.coerce.number().int().positive().default(1),
   limit: z.coerce.number().int().positive().max(100).default(20),
 });

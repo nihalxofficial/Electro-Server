@@ -15,7 +15,7 @@ export const getProducts = catchAsync(async (req, res, next) => {
     return next(new ApiError(400, parsed.error.issues[0].message));
   }
   const result = await productService.getProducts(parsed.data);
-  apiResponse(res, 200, result);
+  apiResponse(res, 200, result, "Products fetched successfully");
 });
 
 export const updateProduct = catchAsync(async (req, res) => {
