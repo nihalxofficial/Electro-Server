@@ -4,9 +4,7 @@
     "title": "Epson Home Cinema Projector",
     "slug": "epson-home-cinema-projector",
     "categoryId": "6a8dbe2da2085f1674cecdf4",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd9"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd9"],
     "price": 649.0,
     "image": "https://mediaserver.goepson.com/adaptivemedia/rendition?id=d184eaa2d2d9483f58887add303d20a0fde0c4bc&vid=d184eaa2d2d9483f58887add303d20a0fde0c4bc&prid=1200Wx1200H&clid=SAPDAM&prclid=banner&assetDescr=HC-980_top-right_690x460%402x",
     "additionalImages": [
@@ -16,9 +14,7 @@
     ],
     "inStock": true,
     "stockQuantity": 68,
-    "badges": [
-      "new"
-    ],
+    "badges": ["new"],
     "sku": "ELX-EPSONHOM-001",
     "description": "Full HD home theater projector with vivid color output.",
     "specifications": {
@@ -34,9 +30,7 @@
     "title": "Apple AirPods Pro (2nd Gen)",
     "slug": "apple-airpods-pro-2nd-gen",
     "categoryId": "6a8dbd75a2085f1674cecdf2",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd2"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd2"],
     "price": 249.0,
     "image": "https://i.cdn.newsbytesapp.com/images/l68220220704140051.png",
     "additionalImages": [
@@ -46,9 +40,7 @@
     ],
     "inStock": true,
     "stockQuantity": 104,
-    "badges": [
-      "hot"
-    ],
+    "badges": ["hot"],
     "sku": "ELX-APPLEAIR-002",
     "description": "Active noise cancellation with adaptive audio.",
     "specifications": {
@@ -66,22 +58,16 @@
     "title": "Google Nest Audio",
     "slug": "google-nest-audio",
     "categoryId": "6a8dbe87a2085f1674cecdf5",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfdb",
-      "6a8ec97bc267612f5edfbfdc"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfdb", "6a8ec97bc267612f5edfbfdc"],
     "price": 89.99,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpF3yuxIrphKdrX6BPg1zMWSZvV1w2jGawf_e5DIT86ZDc5NSzMhOZ9A&s=10",
     "additionalImages": [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyJcMvNhUFWCtNWRhxRrJxCXQLUTIXHqhwy_T95G6Y9Q&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE_hzaijl7P6SQJh5wvNrbNk3TccX-shVNdRrTKXqJjzzhk4-QbAWklbs&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE_hzaijl7P6SQJh5wvNrbNk3TccX-shVNdRrTKXqJjzzhk4-QbAWklbs&s=10"
     ],
     "inStock": true,
     "stockQuantity": 128,
-    "badges": [
-      "popular",
-      "top-seller"
-    ],
+    "badges": ["popular", "top-seller"],
     "sku": "ELX-GOOGLENE-003",
     "description": "Smart speaker with rich, room-filling sound.",
     "specifications": {
@@ -97,10 +83,7 @@
     "title": "Electric Standing Gaming Desk",
     "slug": "electric-standing-gaming-desk",
     "categoryId": "6a8dbdc0a2085f1674cecdf3",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd7",
-      "6a8ec97bc267612f5edfbfd4"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd7", "6a8ec97bc267612f5edfbfd4"],
     "price": 349.0,
     "image": "https://i5.walmartimages.com/seo/GTRACING-Adjustable-Height-RGB-Electric-Sit-or-Stand-Computer-Desk-with-LED-Lights-Black_572b6f69-7fb5-41f6-b6f1-95efdc28c717.d7fb439fbe844401be2c84b35f72f1bf.jpeg",
     "additionalImages": [
@@ -109,9 +92,7 @@
     ],
     "inStock": true,
     "stockQuantity": 112,
-    "badges": [
-      "new"
-    ],
+    "badges": ["new"],
     "sku": "ELX-ELECTRIC-004",
     "description": "Height-adjustable desk for gaming and productivity setups.",
     "specifications": {
@@ -127,10 +108,7 @@
     "title": "Sony WH-1000XM5",
     "slug": "sony-wh-1000xm5",
     "categoryId": "6a8dbd75a2085f1674cecdf2",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd1",
-      "6a8ec97bc267612f5edfbfd3"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd1", "6a8ec97bc267612f5edfbfd3"],
     "price": 349.0,
     "image": "https://www.sony.com/image/6145c1d32e6ac8e63a46c912dc33c5bb?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320",
     "additionalImages": [
@@ -139,9 +117,7 @@
     ],
     "inStock": true,
     "stockQuantity": 77,
-    "badges": [
-      "hot"
-    ],
+    "badges": ["hot"],
     "sku": "ELX-SONYWH10-005",
     "description": "Industry-leading noise cancelling over-ear headphones.",
     "specifications": {
@@ -159,9 +135,7 @@
     "title": "13\" Neoprene Laptop Sleeve",
     "slug": "13-neoprene-laptop-sleeve",
     "categoryId": "6a8dbfc4a2085f1674cecdf8",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfe7"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfe7"],
     "price": 19.99,
     "image": "https://m.media-amazon.com/images/I/71HJbiQvX-L._AC_UF1000,1000_QL80_.jpg",
     "additionalImages": [
@@ -217,10 +191,7 @@
     "title": "TP-Link Archer AX55 Wi-Fi 6 Router",
     "slug": "tp-link-archer-ax55-wi-fi-6-router",
     "categoryId": "6a8dbf4ea2085f1674cecdf7",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfe1",
-      "6a8ec97bc267612f5edfbfe3"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfe1", "6a8ec97bc267612f5edfbfe3"],
     "price": 89.99,
     "image": "https://www.startech.com.bd/image/cache/catalog/router/tp-link/archer-ax55/archer-ax55-01-500x500.jpg",
     "additionalImages": [
@@ -228,9 +199,7 @@
     ],
     "inStock": true,
     "stockQuantity": 147,
-    "badges": [
-      "value-of-the-day"
-    ],
+    "badges": ["value-of-the-day"],
     "sku": "ELX-TPLINKAR-008",
     "description": "Wi-Fi 6 router delivering fast, reliable coverage.",
     "specifications": {
@@ -242,34 +211,28 @@
     "isFeatured": false
   },
   {
-  "ownerId": "6a8d9abc9bd8b81623612579",
-  "title": "Sanus Full-Motion TV Wall Mount",
-  "slug": "sanus-full-motion-tv-wall-mount",
-  "categoryId": "6a8dbe2da2085f1674cecdf4",
-  "subCategoryIds": [
-    "6a8ec97bc267612f5edfbfda"
-  ],
-  "price": 79.99,
-  "image": "https://www.sanus.com/assets/products/vlf728/images/xlarge/VLF728_B2_1.jpg",
-  "additionalImages": [
-    "https://m.media-amazon.com/images/I/61qimHv+AKL.jpg"
-  ],
-  "inStock": true,
-  "stockQuantity": 132,
-  "badges": [
-    "hot"
-  ],
-  "sku": "ELX-SANUSFUL-051",
-  "description": "Full-motion wall mount with tilt, swivel, and extension for 37-75 inch TVs.",
-  "specifications": {
-    "Brand": "Sanus",
-    "Category": "TVs & Displays",
-    "Subcategory": "TV Mounts & Stands",
-    "Warranty": "1 Year Limited Warranty"
-  },
-  "isFeatured": false,
-  "originalPrice": 109.99,
-  "discountPercentage": 27
+    "ownerId": "6a8d9abc9bd8b81623612579",
+    "title": "Sanus Full-Motion TV Wall Mount",
+    "slug": "sanus-full-motion-tv-wall-mount",
+    "categoryId": "6a8dbe2da2085f1674cecdf4",
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfda"],
+    "price": 79.99,
+    "image": "https://www.sanus.com/assets/products/vlf728/images/xlarge/VLF728_B2_1.jpg",
+    "additionalImages": ["https://m.media-amazon.com/images/I/61qimHv+AKL.jpg"],
+    "inStock": true,
+    "stockQuantity": 132,
+    "badges": ["hot"],
+    "sku": "ELX-SANUSFUL-051",
+    "description": "Full-motion wall mount with tilt, swivel, and extension for 37-75 inch TVs.",
+    "specifications": {
+      "Brand": "Sanus",
+      "Category": "TVs & Displays",
+      "Subcategory": "TV Mounts & Stands",
+      "Warranty": "1 Year Limited Warranty"
+    },
+    "isFeatured": false,
+    "originalPrice": 109.99,
+    "discountPercentage": 27
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -307,9 +270,7 @@
     "title": "15.6\" Laptop Backpack",
     "slug": "15.6-laptop-backpack",
     "categoryId": "6a8dbfc4a2085f1674cecdf8",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfe7"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfe7"],
     "price": 44.99,
     "image": "https://media.startech.com/cms/products/gallery_large/ntbkbag156.main.jpg",
     "additionalImages": [
@@ -318,9 +279,7 @@
     ],
     "inStock": true,
     "stockQuantity": 88,
-    "badges": [
-      "new"
-    ],
+    "badges": ["new"],
     "sku": "ELX-156LAPTO-011",
     "description": "Water-resistant backpack with padded laptop compartment.",
     "specifications": {
@@ -336,10 +295,7 @@
     "title": "Razer BlackShark V2",
     "slug": "razer-blackshark-v2",
     "categoryId": "6a8dbdc0a2085f1674cecdf3",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd6",
-      "6a8ec97bc267612f5edfbfd5"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd6", "6a8ec97bc267612f5edfbfd5"],
     "price": 99.0,
     "image": "https://zamve.com/wp-content/uploads/2024/06/Razer-BlackShark-V2-X-from-Zamve-Online-Gaming-Headphone-Shop-BD.jpg",
     "additionalImages": [
@@ -349,9 +305,7 @@
     ],
     "inStock": true,
     "stockQuantity": 146,
-    "badges": [
-      "hot"
-    ],
+    "badges": ["hot"],
     "sku": "ELX-RAZERBLA-012",
     "description": "Esports-grade headset with THX spatial audio.",
     "specifications": {
@@ -367,10 +321,7 @@
     "title": "Dell 24\" Full HD Monitor",
     "slug": "dell-24-full-hd-monitor",
     "categoryId": "6a8db951170a99692722dda5",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfcc",
-      "6a8ec97bc267612f5edfbfca"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfcc", "6a8ec97bc267612f5edfbfca"],
     "price": 179.0,
     "image": "https://www.ryans.com/storage/products/main/dell-se2419hr-24-inch-full-hd-led-monitor-vga-11582521889.webp",
     "additionalImages": [
@@ -380,9 +331,7 @@
     ],
     "inStock": false,
     "stockQuantity": 5,
-    "badges": [
-      "value-of-the-day"
-    ],
+    "badges": ["value-of-the-day"],
     "sku": "ELX-DELL24FU-013",
     "description": "Reliable everyday monitor for office and home use.",
     "specifications": {
@@ -398,9 +347,7 @@
     "title": "JBL Flip 6 Portable Speaker",
     "slug": "jbl-flip-6-portable-speaker",
     "categoryId": "6a8dbd75a2085f1674cecdf2",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd3"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd3"],
     "price": 129.0,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6JonZdSHDn-mkee__UwdK91jhKNHpPLT-maVfLDJTp0v2DdFoZDPJ4jCk&s=10",
     "additionalImages": [
@@ -410,9 +357,7 @@
     ],
     "inStock": true,
     "stockQuantity": 160,
-    "badges": [
-      "top-seller"
-    ],
+    "badges": ["top-seller"],
     "sku": "ELX-JBLFLIP6-014",
     "description": "Waterproof portable speaker with punchy bass.",
     "specifications": {
@@ -430,10 +375,7 @@
     "title": "Leather Wallet Phone Case",
     "slug": "leather-wallet-phone-case",
     "categoryId": "6a8dbb6ba2085f1674cecdf1",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd0",
-      "6a8ec97bc267612f5edfbfcf"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd0", "6a8ec97bc267612f5edfbfcf"],
     "price": 29.99,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfCFQODNAF5b2n0mr-RFR4G4eTrR9kprfs_Ew-JE7MZQo7s313YPrtA0Q&s=10",
     "additionalImages": [
@@ -442,9 +384,7 @@
     ],
     "inStock": true,
     "stockQuantity": 28,
-    "badges": [
-      "popular"
-    ],
+    "badges": ["popular"],
     "sku": "ELX-LEATHERW-015",
     "description": "Genuine leather case with card slots and stand function.",
     "specifications": {
@@ -462,10 +402,7 @@
     "title": "Dell OptiPlex All-in-One PC",
     "slug": "dell-optiplex-all-in-one-pc",
     "categoryId": "6a8db951170a99692722dda5",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfcb",
-      "6a8ec97bc267612f5edfbfc9"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfcb", "6a8ec97bc267612f5edfbfc9"],
     "price": 949.0,
     "image": "https://www.startech.com.bd/image/cache/catalog/all-in-one-pc/Dell/optiplex-24-7480/optiplex-24-7480-500x500.jpg",
     "additionalImages": [
@@ -474,10 +411,7 @@
     ],
     "inStock": true,
     "stockQuantity": 157,
-    "badges": [
-      "hot",
-      "trending"
-    ],
+    "badges": ["hot", "trending"],
     "sku": "ELX-DELLOPTI-016",
     "description": "Space-saving all-in-one desktop with a built-in display.",
     "specifications": {
@@ -493,9 +427,7 @@
     "title": "MacBook Air M2 13-inch",
     "slug": "macbook-air-m2-13-inch",
     "categoryId": "6a8db951170a99692722dda5",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfc9"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfc9"],
     "price": 1099.0,
     "image": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air-m2-chip/macbook-air-m2-chip-01-500x500.webp",
     "additionalImages": [
@@ -504,10 +436,7 @@
     ],
     "inStock": true,
     "stockQuantity": 115,
-    "badges": [
-      "value-of-the-day",
-      "new"
-    ],
+    "badges": ["value-of-the-day", "new"],
     "sku": "ELX-MACBOOKA-017",
     "description": "Fanless design with all-day battery life and M2 performance.",
     "specifications": {
@@ -523,10 +452,7 @@
     "title": "Bose QuietComfort 45",
     "slug": "bose-quietcomfort-45",
     "categoryId": "6a8dbd75a2085f1674cecdf2",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd1",
-      "6a8ec97bc267612f5edfbfd3"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd1", "6a8ec97bc267612f5edfbfd3"],
     "price": 279.0,
     "image": "https://www.ryans.com/storage/products/main/bose-quietcomfort-45-limited-edition-midnight-11681645724.webp",
     "additionalImages": [
@@ -536,9 +462,7 @@
     ],
     "inStock": true,
     "stockQuantity": 73,
-    "badges": [
-      "hot"
-    ],
+    "badges": ["hot"],
     "sku": "ELX-BOSEQUIE-018",
     "description": "Comfortable all-day headphones with balanced sound.",
     "specifications": {
@@ -556,9 +480,7 @@
     "title": "Fitbit Charge 6",
     "slug": "fitbit-charge-6",
     "categoryId": "6a8dbef7a2085f1674cecdf6",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfdf"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfdf"],
     "price": 159.0,
     "image": "https://diamu.com.bd/wp-content/uploads/2023/11/Fitbit-Charge-6-Premium-Fitness-Tracker.jpg",
     "additionalImages": [
@@ -598,10 +520,7 @@
     ],
     "inStock": true,
     "stockQuantity": 52,
-    "badges": [
-      "trending",
-      "value-of-the-day"
-    ],
+    "badges": ["trending", "value-of-the-day"],
     "sku": "ELX-APPLEWAT-020",
     "description": "Advanced health tracking with a brighter always-on display.",
     "specifications": {
@@ -630,9 +549,7 @@
     ],
     "inStock": false,
     "stockQuantity": 3,
-    "badges": [
-      "trending"
-    ],
+    "badges": ["trending"],
     "sku": "ELX-SAMSUNGG-021",
     "description": "Flagship Android phone with S Pen and 200MP camera.",
     "specifications": {
@@ -664,9 +581,7 @@
     ],
     "inStock": true,
     "stockQuantity": 25,
-    "badges": [
-      "new"
-    ],
+    "badges": ["new"],
     "sku": "ELX-PS5DUALS-022",
     "description": "Haptic feedback and adaptive triggers for immersive gaming.",
     "specifications": {
@@ -684,10 +599,7 @@
     "title": "Motorola MB8611 Cable Modem",
     "slug": "motorola-mb8611-cable-modem",
     "categoryId": "6a8dbf4ea2085f1674cecdf7",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfe2",
-      "6a8ec97bc267612f5edfbfe3"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfe2", "6a8ec97bc267612f5edfbfe3"],
     "price": 129.0,
     "image": "https://m.media-amazon.com/images/I/51lAHKiXLTL.jpg",
     "additionalImages": [
@@ -755,9 +667,7 @@
     ],
     "inStock": true,
     "stockQuantity": 111,
-    "badges": [
-      "value-of-the-day"
-    ],
+    "badges": ["value-of-the-day"],
     "sku": "ELX-USBCTOHD-025",
     "description": "Connect your laptop or phone to any HDMI display.",
     "specifications": {
@@ -775,10 +685,7 @@
     "title": "Dell XPS 13 Laptop",
     "slug": "dell-xps-13-laptop",
     "categoryId": "6a8db951170a99692722dda5",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfc9",
-      "6a8ec97bc267612f5edfbfca"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfc9", "6a8ec97bc267612f5edfbfca"],
     "price": 999.0,
     "image": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/xps-13-9310/xps-13-9310-side-500x500.jpg",
     "additionalImages": [
@@ -787,9 +694,7 @@
     ],
     "inStock": false,
     "stockQuantity": 0,
-    "badges": [
-      "top-seller"
-    ],
+    "badges": ["top-seller"],
     "sku": "ELX-DELLXPS1-026",
     "description": "Ultra-thin laptop with InfinityEdge display, ideal for everyday work.",
     "specifications": {
@@ -807,9 +712,7 @@
     "title": "Netgear Nighthawk Mesh Router",
     "slug": "netgear-nighthawk-mesh-router",
     "categoryId": "6a8dbf4ea2085f1674cecdf7",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfe1"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfe1"],
     "price": 179.0,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrm6A2BpHqVmAv5LTDvb9kiscD7uCH7oHJ7ceIL6URzlfDtgw4Ik_KUB4&s=10",
     "additionalImages": [
@@ -818,9 +721,7 @@
     ],
     "inStock": true,
     "stockQuantity": 190,
-    "badges": [
-      "top-seller"
-    ],
+    "badges": ["top-seller"],
     "sku": "ELX-NETGEARN-027",
     "description": "Whole-home mesh Wi-Fi system for seamless coverage.",
     "specifications": {
@@ -838,10 +739,7 @@
     "title": "Samsung Galaxy Buds2 Pro",
     "slug": "samsung-galaxy-buds2-pro",
     "categoryId": "6a8dbd75a2085f1674cecdf2",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd2",
-      "6a8ec97bc267612f5edfbfd3"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd2", "6a8ec97bc267612f5edfbfd3"],
     "price": 179.0,
     "image": "https://www.startech.com.bd/image/cache/catalog/earbuds/samsung/galaxy-buds2-pro/galaxy-buds2-pro-black-01-500x500.webp",
     "additionalImages": [
@@ -851,9 +749,7 @@
     ],
     "inStock": true,
     "stockQuantity": 44,
-    "badges": [
-      "new"
-    ],
+    "badges": ["new"],
     "sku": "ELX-SAMSUNGG-028",
     "description": "Compact true wireless earbuds with intelligent ANC.",
     "specifications": {
@@ -869,9 +765,7 @@
     "title": "Philips Hue Smart Bulb Starter Kit",
     "slug": "philips-hue-smart-bulb-starter-kit",
     "categoryId": "6a8dbe87a2085f1674cecdf5",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfdd"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfdd"],
     "price": 89.99,
     "image": "https://www.assets.signify.com/is/image/Signify/046677563080-929002469109-Philips-Hue_W-10_5W-A19-E26-2set-US-RTP",
     "additionalImages": [
@@ -880,9 +774,7 @@
     ],
     "inStock": true,
     "stockQuantity": 62,
-    "badges": [
-      "top-seller"
-    ],
+    "badges": ["top-seller"],
     "sku": "ELX-PHILIPSH-029",
     "description": "Color-changing smart bulbs controllable via app and voice.",
     "specifications": {
@@ -898,10 +790,7 @@
     "title": "Sony PlayStation 5 Slim",
     "slug": "sony-playstation-5-slim",
     "categoryId": "6a8dbdc0a2085f1674cecdf3",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd4",
-      "6a8ec97bc267612f5edfbfd7"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd4", "6a8ec97bc267612f5edfbfd7"],
     "price": 499.0,
     "image": "https://www.startech.com.bd/image/cache/catalog/gaming-console/playstation/playstation-5-analog-console-slim-edition/playstation-5-analog-console-slim-edition-01-500x500.webp",
     "additionalImages": [
@@ -927,10 +816,7 @@
     "title": "Sonos Move 2",
     "slug": "sonos-move-2",
     "categoryId": "6a8dbd75a2085f1674cecdf2",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd3",
-      "6a8ec97bc267612f5edfbfd1"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd3", "6a8ec97bc267612f5edfbfd1"],
     "price": 399.0,
     "image": "https://dazzle.sgp1.cdn.digitaloceanspaces.com/25793/Sonos-Move-2-Portable-Smart-Speaker-black.png",
     "additionalImages": [
@@ -958,9 +844,7 @@
     "title": "Apple iPhone 15 Pro 256GB",
     "slug": "apple-iphone-15-pro-256gb",
     "categoryId": "6a8dbb6ba2085f1674cecdf1",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfce"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfce"],
     "price": 999.0,
     "image": "https://www.jbhifi.com.au/cdn/shop/files/39f406deffc44dc09fe3b0a9716a35cb_c9380a6b-44e8-4bae-a46c-27c5fa88f26d.jpg?v=1731628121",
     "additionalImages": [
@@ -986,10 +870,7 @@
     "title": "Apple 20W USB-C Power Adapter",
     "slug": "apple-20w-usb-c-power-adapter",
     "categoryId": "6a8dbfc4a2085f1674cecdf8",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfe5",
-      "6a8ec97bc267612f5edfbfe4"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfe5", "6a8ec97bc267612f5edfbfe4"],
     "price": 19.99,
     "image": "https://www.startech.com.bd/image/cache/catalog/adapter/apple/mhjf3ze/apple-20w-usb-c-power-adapter-01-500x500.webp",
     "additionalImages": [
@@ -998,10 +879,7 @@
     ],
     "inStock": true,
     "stockQuantity": 153,
-    "badges": [
-      "top-seller",
-      "hot"
-    ],
+    "badges": ["top-seller", "hot"],
     "sku": "ELX-APPLE20W-033",
     "description": "Fast, efficient charging for iPhone and iPad.",
     "specifications": {
@@ -1019,10 +897,7 @@
     "title": "Xbox Wireless Controller",
     "slug": "xbox-wireless-controller",
     "categoryId": "6a8dbdc0a2085f1674cecdf3",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd5",
-      "6a8ec97bc267612f5edfbfd6"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd5", "6a8ec97bc267612f5edfbfd6"],
     "price": 59.99,
     "image": "https://www.startech.com.bd/image/cache/catalog/game-pad/microsoft/xbox-wireless/xbox-wireless-1-500x500.jpg",
     "additionalImages": [
@@ -1032,9 +907,7 @@
     ],
     "inStock": true,
     "stockQuantity": 198,
-    "badges": [
-      "trending"
-    ],
+    "badges": ["trending"],
     "sku": "ELX-XBOXWIRE-034",
     "description": "Ergonomic wireless controller with textured grip.",
     "specifications": {
@@ -1063,10 +936,7 @@
     ],
     "inStock": true,
     "stockQuantity": 19,
-    "badges": [
-      "hot",
-      "value-of-the-day"
-    ],
+    "badges": ["hot", "value-of-the-day"],
     "sku": "ELX-RINGINDO-035",
     "description": "Compact indoor security camera with live view and alerts.",
     "specifications": {
@@ -1082,10 +952,7 @@
     "title": "Xbox Series X",
     "slug": "xbox-series-x",
     "categoryId": "6a8dbdc0a2085f1674cecdf3",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd4",
-      "6a8ec97bc267612f5edfbfd6"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd4", "6a8ec97bc267612f5edfbfd6"],
     "price": 499.0,
     "image": "https://www.startech.com.bd/image/cache/catalog/gaming-console/microsoft/xbox-series-x/xbox-series-x-white-01-500x500.webp",
     "additionalImages": [
@@ -1109,42 +976,37 @@
     "discountPercentage": 23
   },
   {
-  "ownerId": "6a8d9abc9bd8b81623612579",
-  "title": "Garmin Venu 3 Smartwatch",
-  "slug": "garmin-venu-3-smartwatch",
-  "categoryId": "6a8dbef7a2085f1674cecdf6",
-  "subCategoryIds": [
-    "6a8ec97bc267612f5edfbfde"
-  ],
-  "price": 449.99,
-  "image": "https://res.garmin.com/transform/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/Product_Images/en/products/010-02784-01/v/rf-xl?pgw=1",
-  "additionalImages": [
-    "https://res.garmin.com/transform/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/Product_Images/en/products/010-02784-01/v/pd-04-xl?pgw=1",
-    "https://res.garmin.com/transform/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/Product_Images/en/products/010-02784-00/v/cf-xl?pgw=1",
-    "https://res.garmin.com/transform/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/Product_Images/en/products/010-02785-04/v/cf-xl?pgw=1"
-  ],
-  "inStock": true,
-  "stockQuantity": 58,
-  "badges": ["new"],
-  "sku": "ELX-GARMINVEN-052",
-  "description": "GPS smartwatch with advanced sleep coaching and up to 14 days of battery life.",
-  "specifications": {
-    "Brand": "Garmin",
-    "Category": "Wearables",
-    "Subcategory": "Smartwatches",
-    "Warranty": "1 Year Limited Warranty"
-  },
-  "isFeatured": true
+    "ownerId": "6a8d9abc9bd8b81623612579",
+    "title": "Garmin Venu 3 Smartwatch",
+    "slug": "garmin-venu-3-smartwatch",
+    "categoryId": "6a8dbef7a2085f1674cecdf6",
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfde"],
+    "price": 449.99,
+    "image": "https://res.garmin.com/transform/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/Product_Images/en/products/010-02784-01/v/rf-xl?pgw=1",
+    "additionalImages": [
+      "https://res.garmin.com/transform/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/Product_Images/en/products/010-02784-01/v/pd-04-xl?pgw=1",
+      "https://res.garmin.com/transform/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/Product_Images/en/products/010-02784-00/v/cf-xl?pgw=1",
+      "https://res.garmin.com/transform/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.0,f_auto,h_400,q_auto,w_400/c_pad,h_400,w_400/v1/Product_Images/en/products/010-02785-04/v/cf-xl?pgw=1"
+    ],
+    "inStock": true,
+    "stockQuantity": 58,
+    "badges": ["new"],
+    "sku": "ELX-GARMINVEN-052",
+    "description": "GPS smartwatch with advanced sleep coaching and up to 14 days of battery life.",
+    "specifications": {
+      "Brand": "Garmin",
+      "Category": "Wearables",
+      "Subcategory": "Smartwatches",
+      "Warranty": "1 Year Limited Warranty"
+    },
+    "isFeatured": true
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "HP Pavilion 15",
     "slug": "hp-pavilion-15",
     "categoryId": "6a8db951170a99692722dda5",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfc9",
-      "6a8ec97bc267612f5edfbfcb"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfc9", "6a8ec97bc267612f5edfbfcb"],
     "price": 649.0,
     "image": "https://kaas.hpcloud.hp.com/PROD/v2/renderbinary/6338340/6344509/con-win-nb-p-felicette-22c1-hp-pavilion-laptop-15-eh2000-specification/con-nb-felicitte-hp-pavilion-laptop-15-eh2000-product-image",
     "additionalImages": [
@@ -1153,10 +1015,7 @@
     ],
     "inStock": true,
     "stockQuantity": 90,
-    "badges": [
-      "top-seller",
-      "value-of-the-day"
-    ],
+    "badges": ["top-seller", "value-of-the-day"],
     "sku": "ELX-HPPAVILI-038",
     "description": "Everyday laptop built for productivity and entertainment.",
     "specifications": {
@@ -1174,10 +1033,7 @@
     "title": "LG 65\" OLED Smart TV",
     "slug": "lg-65-oled-smart-tv",
     "categoryId": "6a8dbe2da2085f1674cecdf4",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd8",
-      "6a8ec97bc267612f5edfbfda"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd8", "6a8ec97bc267612f5edfbfda"],
     "price": 1499.0,
     "image": "https://www.lg.com/bd/images/tvs/md07542232/gallery/medium01.jpg",
     "additionalImages": [
@@ -1186,9 +1042,7 @@
     ],
     "inStock": true,
     "stockQuantity": 147,
-    "badges": [
-      "popular"
-    ],
+    "badges": ["popular"],
     "sku": "ELX-LG65OLED-039",
     "description": "Perfect blacks and infinite contrast for true cinematic viewing.",
     "specifications": {
@@ -1204,10 +1058,7 @@
     "title": "LIFX Smart LED Bulb",
     "slug": "lifx-smart-led-bulb",
     "categoryId": "6a8dbe87a2085f1674cecdf5",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfdd",
-      "6a8ec97bc267612f5edfbfdb"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfdd", "6a8ec97bc267612f5edfbfdb"],
     "price": 39.99,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFMIDM2wK4hUZx5ljYLEiF_61V6gJD4_MlIE-s9m8aulWkLrIfLVCamIs&s=10",
     "additionalImages": [
@@ -1218,10 +1069,7 @@
     ],
     "inStock": true,
     "stockQuantity": 89,
-    "badges": [
-      "popular",
-      "trending"
-    ],
+    "badges": ["popular", "trending"],
     "sku": "ELX-LIFXSMAR-040",
     "description": "Wi-Fi enabled bulb, no hub required.",
     "specifications": {
@@ -1234,31 +1082,26 @@
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
-    "title": "Full Motion TV Wall Mount",
-    "slug": "full-motion-tv-wall-mount-41",
+    "title": "BenQ TK850i 4K Home Projector",
+    "slug": "benq-tk850i-4k-home-projector",
     "categoryId": "6a8dbe2da2085f1674cecdf4",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfda"
-    ],
-    "price": 49.99,
-    "image": "https://images.unsplash.com/photo-1615469940521-9adf9f5e9d3f?w=800",
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd9"],
+    "price": 1499.0,
+    "image": "https://image.benq.com/is/image/benqco/04-tk850i-right30?$ResponsivePreset$",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1615469940521-9adf9f5e9d3f?w=800",
-      "https://images.unsplash.com/photo-1615529182904-14819c35db37?w=800",
-      "https://images.unsplash.com/photo-1567016432779-094069958ea5?w=800",
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800"
+      "https://image.benq.com/is/image/benqco/1-benq-tk850i-smart-android-tv-home-projector-4k-hdr-1?$ResponsivePreset$&fmt=png-alpha",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwkGrDdLETpMM6l34CwEPL3enl-4U_YAvCwrUxdP2sBfIBRx4Wg5OQA63s&s=10",
+      "https://m.media-amazon.com/images/I/41Ynu+q0Z0L.jpg"
     ],
     "inStock": true,
-    "stockQuantity": 54,
-    "badges": [
-      "trending"
-    ],
-    "sku": "ELX-FULLMOTI-041",
-    "description": "Adjustable tilt and swivel mount for 37-75 inch TVs.",
+    "stockQuantity": 21,
+    "badges": ["hot"],
+    "sku": "ELX-BENQTK850-053",
+    "description": "True 4K HDR home projector with vivid color accuracy for movies and sports.",
     "specifications": {
-      "Brand": "Full",
+      "Brand": "BenQ",
       "Category": "TVs & Displays",
-      "Subcategory": "TV Mounts & Stands",
+      "Subcategory": "Projectors",
       "Warranty": "1 Year Limited Warranty"
     },
     "isFeatured": false
@@ -1266,25 +1109,19 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Secretlab Titan Evo Gaming Chair",
-    "slug": "secretlab-titan-evo-gaming-chair-42",
+    "slug": "secretlab-titan-evo-gaming-chair",
     "categoryId": "6a8dbdc0a2085f1674cecdf3",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd7",
-      "6a8ec97bc267612f5edfbfd6"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd7", "6a8ec97bc267612f5edfbfd6"],
     "price": 549.0,
-    "image": "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=800",
+    "image": "https://m.media-amazon.com/images/I/41UZRUxHa4L.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=800",
-      "https://images.unsplash.com/photo-1595246140625-573b715d11dc?w=800",
-      "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=800",
-      "https://images.unsplash.com/photo-1611195974226-a6a9be9dd763?w=800"
+      "https://microless.com/cdn/products/9ab12b5bf3eb9faefa29c4912adc0999-hi.jpg",
+      "https://images.secretlab.co/turntable/tr:n-w_450/R22SW-PlushPnk_02.jpg",
+      "https://images.secretlab.co/theme/common/ttevo26-fit-legrests-card.png"
     ],
     "inStock": true,
     "stockQuantity": 177,
-    "badges": [
-      "trending"
-    ],
+    "badges": ["trending"],
     "sku": "ELX-SECRETLA-042",
     "description": "Ergonomic gaming chair with 4-way lumbar support.",
     "specifications": {
@@ -1300,24 +1137,19 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Braided USB-C Cable 2m",
-    "slug": "braided-usb-c-cable-2m-43",
+    "slug": "braided-usb-c-cable-2m",
     "categoryId": "6a8dbfc4a2085f1674cecdf8",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfe4",
-      "6a8ec97bc267612f5edfbfe5"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfe4", "6a8ec97bc267612f5edfbfe5"],
     "price": 12.99,
-    "image": "https://images.unsplash.com/photo-1588508065123-287b28e013da?w=800",
+    "image": "https://m.media-amazon.com/images/I/715cMTMoizL._AC_UF1000,1000_QL80_.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1588508065123-287b28e013da?w=800",
-      "https://images.unsplash.com/photo-1591290619762-c5cfef893f42?w=800",
-      "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=800"
+      "https://assets.gadgetandgear.com/upload/media/belkin-15w-usb-a-to-usb-c-braided-cable-2-meter364.jpeg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyBqv7AVMcB2V1_PIqenL1bEX4zTpcsJV7hKSyukKPODNWjS5sykrTDfY&s=10",
+      "https://www.startech.com.bd/image/cache/catalog/cable/micropack/mc-c100/mc-c100-500x500.webp"
     ],
     "inStock": false,
     "stockQuantity": 5,
-    "badges": [
-      "value-of-the-day"
-    ],
+    "badges": ["value-of-the-day"],
     "sku": "ELX-BRAIDEDU-043",
     "description": "Durable braided cable for fast charging and data transfer.",
     "specifications": {
@@ -1331,7 +1163,7 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "ASUS ROG Strix G16",
-    "slug": "asus-rog-strix-g16-44",
+    "slug": "asus-rog-strix-g16",
     "categoryId": "6a8db951170a99692722dda5",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfca",
@@ -1339,18 +1171,15 @@
       "6a8ec97bc267612f5edfbfc9"
     ],
     "price": 1499.0,
-    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800",
+    "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/rog-strix-g16-g614pp/rog-strix-g16-g614pp-01-500x500.webp",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800",
-      "https://images.unsplash.com/photo-1603481546238-487240415921?w=800",
-      "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=800",
-      "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=800"
+      "https://dlcdnwebimgs.asus.com/files/media/601ee339-f392-4b62-87c3-972107bda726/v1/img/performance/engine-pd.png",
+      "https://dlcdnwebimgs.asus.com/files/media/71a33ba1-1be2-44c1-9541-70b4c800abf8/v1/images/m-ksp-c_1.webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWjEmMYibmVL23DKH2El97eVBLGf6ukdL0mWc_x4TjfOjY184Oot630ME&s=10"
     ],
     "inStock": true,
     "stockQuantity": 60,
-    "badges": [
-      "new"
-    ],
+    "badges": ["new"],
     "sku": "ELX-ASUSROGS-044",
     "description": "High-refresh gaming laptop with RTX graphics and RGB keyboard.",
     "specifications": {
@@ -1364,24 +1193,19 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Xiaomi Smart Band 8",
-    "slug": "xiaomi-smart-band-8-45",
+    "slug": "xiaomi-smart-band-8",
     "categoryId": "6a8dbef7a2085f1674cecdf6",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfdf"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfdf"],
     "price": 49.99,
-    "image": "https://images.unsplash.com/photo-1575311373937-919de0d02fe0?w=800",
+    "image": "https://www.startech.com.bd/image/cache/catalog/smart-band/xiaomi/mi-smart-band-8-pro/mi-smart-band-8-pro-500x500.webp",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1575311373937-919de0d02fe0?w=800",
-      "https://images.unsplash.com/photo-1557166983-5939644443a6?w=800",
-      "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=800"
+      "https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-smart-band-8/m/overview/brand2.png",
+      "https://www.startech.com.bd/image/cache/catalog/smart-band/xiaomi/mi-band-8/mi-band-8-500x500.webp",
+      "https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-smart-band-8-pro/m/14efc702b904eb81538743924fc61c6e.png"
     ],
     "inStock": true,
     "stockQuantity": 188,
-    "badges": [
-      "trending",
-      "value-of-the-day"
-    ],
+    "badges": ["trending", "value-of-the-day"],
     "sku": "ELX-XIAOMISM-045",
     "description": "Affordable fitness band with a vivid AMOLED display.",
     "specifications": {
@@ -1397,25 +1221,19 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Belkin BoostCharge 10000mAh",
-    "slug": "belkin-boostcharge-10000mah-46",
+    "slug": "belkin-boostcharge-10000mah",
     "categoryId": "6a8dbfc4a2085f1674cecdf8",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfe6"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfe6"],
     "price": 29.99,
-    "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800",
+    "image": "https://dazzle.com.bd/_next/image?url=https%3A%2F%2Fdazzle.sgp1.cdn.digitaloceanspaces.com%2F99547%2FBelkin-BoostCharge-Power-Bank-10K-with-Integrated-Cable-price-in-bangladesh-(3).jpg&w=1080&q=75",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800",
-      "https://images.unsplash.com/photo-1618410320928-25228d811631?w=800",
-      "https://images.unsplash.com/photo-1620825141152-6d9c3c2b2b2f?w=800",
-      "https://images.unsplash.com/photo-1526406915894-7bcd65f60845?w=800"
+      "https://assets.gadgetandgear.com/upload/media/belkin-power-bank-10k-with-integrated-cable383.jpeg",
+      "https://d1auy89oi7zwzb.cloudfront.net/media/catalog/product/f3d68cb4-0408-41dc-9b9c-a04a80b9b31a",
+      "https://www.firstshop.co.za/cdn/shop/files/bpb027hqbk-power-adapters-inverters-1194034074.jpg?v=1758574381&width=1214"
     ],
     "inStock": true,
     "stockQuantity": 188,
-    "badges": [
-      "new",
-      "top-seller"
-    ],
+    "badges": ["new", "top-seller"],
     "sku": "ELX-BELKINBO-046",
     "description": "Compact, pocket-friendly portable charger.",
     "specifications": {
@@ -1429,7 +1247,7 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Apple iPhone 13 Mini 128GB",
-    "slug": "apple-iphone-13-mini-128gb-47",
+    "slug": "apple-iphone-13-mini-128gb",
     "categoryId": "6a8dbb6ba2085f1674cecdf1",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfce",
@@ -1437,17 +1255,15 @@
       "6a8ec97bc267612f5edfbfcf"
     ],
     "price": 549.0,
-    "image": "https://images.unsplash.com/photo-1632661674596-618e45d2eba9?w=800",
+    "image": "https://www.jbhifi.com.au/cdn/shop/files/7777b9d3a281495e9cbf29a1752f65eb_c212eeb7-5bd3-44e3-84bb-272370f5fc86.jpg?v=1731628085",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1632661674596-618e45d2eba9?w=800",
-      "https://images.unsplash.com/photo-1592286927505-1def25115558?w=800",
-      "https://images.unsplash.com/photo-1678652197831-2d180705cd2c?w=800"
+      "https://wefix.co.za/cdn/shop/products/iPhone-13-Mini-Black.png?v=1654848278",
+      "https://m.media-amazon.com/images/I/51lOLUY7fsL.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ4jEr2MW5UZmEme81NdvOclmfAAFapWYmZPrm_UtxYqfoQMHObZ5RxV_Z&s=10"
     ],
     "inStock": true,
     "stockQuantity": 153,
-    "badges": [
-      "trending"
-    ],
+    "badges": ["trending"],
     "sku": "ELX-APPLEIPH-047",
     "description": "Compact form factor with all-day battery life.",
     "specifications": {
@@ -1463,7 +1279,7 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Nintendo Switch OLED",
-    "slug": "nintendo-switch-oled-48",
+    "slug": "nintendo-switch-oled",
     "categoryId": "6a8dbdc0a2085f1674cecdf3",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfd4",
@@ -1471,18 +1287,15 @@
       "6a8ec97bc267612f5edfbfd5"
     ],
     "price": 349.0,
-    "image": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=800",
+    "image": "https://diamu.com.bd/wp-content/uploads/2021/12/Nintendo-Switch-%E2%80%93-OLED-Model-White-set-2.jpg",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=800",
-      "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=800",
-      "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=800",
-      "https://images.unsplash.com/photo-1592155931584-901ac15763e3?w=800"
+      "https://diamu.com.bd/wp-content/uploads/2021/12/Nintendo-Switch-%E2%80%93-OLED-Model-White-set-1.jpg",
+      "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_500/ncom/en_US/switch/site-design-update/photo01",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRviiErphEBJvYicRs3rJwG7xmQjGSQjfZKj_VYZIAclu3YqadaI--INNcQ&s=10"
     ],
     "inStock": true,
     "stockQuantity": 76,
-    "badges": [
-      "value-of-the-day"
-    ],
+    "badges": ["value-of-the-day"],
     "sku": "ELX-NINTENDO-048",
     "description": "Vibrant OLED screen with handheld and docked play.",
     "specifications": {
@@ -1496,25 +1309,19 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "Anker Nebula Mars 3 Portable Projector",
-    "slug": "anker-nebula-mars-3-portable-projector-49",
+    "slug": "anker-nebula-mars-3-portable-projector",
     "categoryId": "6a8dbe2da2085f1674cecdf4",
-    "subCategoryIds": [
-      "6a8ec97bc267612f5edfbfd9",
-      "6a8ec97bc267612f5edfbfd8"
-    ],
+    "subCategoryIds": ["6a8ec97bc267612f5edfbfd9", "6a8ec97bc267612f5edfbfd8"],
     "price": 499.0,
-    "image": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ29uJzp-fg52Wrsvv9gcEH1qJRMrAwq9N4UBAwoHdQDw&s=10",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800",
-      "https://images.unsplash.com/photo-1626387346567-68d0e848a917?w=800",
-      "https://images.unsplash.com/photo-1615715982032-a67d34317bfe?w=800",
-      "https://images.unsplash.com/photo-1526406915894-7bcd65f60845?w=800"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjrNr_99W1swrK84cpOhiKGG3XGg4FjFAWW8aMNmuM_IOXjUF4g_EkuJzg&s=10",
+      "https://cdn.shopify.com/s/files/1/0519/2355/0368/files/Frame_2121237532_3840x.png?v=1782816060",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIe8N0S6BQhJxohOYINPpN5BdDZBxzlqXbUb1hTfFCAt0SCunXLIpN4yAu&s=10"
     ],
     "inStock": true,
     "stockQuantity": 95,
-    "badges": [
-      "top-seller"
-    ],
+    "badges": ["top-seller"],
     "sku": "ELX-ANKERNEB-049",
     "description": "Portable projector with built-in battery for outdoor movie nights.",
     "specifications": {
@@ -1530,7 +1337,7 @@
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
     "title": "OnePlus 12",
-    "slug": "oneplus-12-50",
+    "slug": "oneplus-12",
     "categoryId": "6a8dbb6ba2085f1674cecdf1",
     "subCategoryIds": [
       "6a8ec97bc267612f5edfbfcd",
@@ -1538,19 +1345,16 @@
       "6a8ec97bc267612f5edfbfd0"
     ],
     "price": 799.0,
-    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzKF-AvZO1pWPnXbXBJK4Br6Hkbem9EPIlQaqIaIn4vQ9GbGwuo8_aHL4&s=10",
     "additionalImages": [
-      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800",
-      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800",
-      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800",
-      "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800"
+      "https://mobilebuzzbd.com/wp-content/uploads/2024/03/OnePlus-12-Silver.jpg",
+      "https://image01.oneplus.net/media/202405/28/b9b7af7dfc54d7ee88769ada1eb02a11.png",
+      "https://crdms.images.consumerreports.org/f_auto,w_600/prod/products/cr/models/413304-smartphones-oneplus-12-10038329.png",
+      "https://dfksb1dwoard2.cloudfront.net/media/catalog/product/o/n/oneplus_12_white_2__2.jpg?width=700&height=862&store=default&image-type=image"
     ],
     "inStock": true,
     "stockQuantity": 26,
-    "badges": [
-      "trending",
-      "popular"
-    ],
+    "badges": ["trending", "popular"],
     "sku": "ELX-ONEPLUS1-050",
     "description": "Fast charging flagship killer with a smooth 120Hz display.",
     "specifications": {
