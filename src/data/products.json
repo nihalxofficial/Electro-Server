@@ -17,7 +17,9 @@
     "inStock": true,
     "stockQuantity": 68,
     "badges": [
-      "new"
+      "new",
+      "trending",
+      "popular"
     ],
     "sku": "ELX-EPSONHOM-001",
     "description": "Full HD home theater projector with vivid color output.",
@@ -112,7 +114,8 @@
     "inStock": true,
     "stockQuantity": 112,
     "badges": [
-      "new"
+      "new",
+      "trending"
     ],
     "sku": "ELX-ELECTRIC-004",
     "description": "Height-adjustable desk for gaming and productivity setups.",
@@ -144,7 +147,8 @@
     "inStock": true,
     "stockQuantity": 77,
     "badges": [
-      "hot"
+      "hot",
+      "popular"
     ],
     "sku": "ELX-SONYWH10-005",
     "description": "Industry-leading noise cancelling over-ear headphones.",
@@ -205,7 +209,10 @@
     ],
     "inStock": true,
     "stockQuantity": 118,
-    "badges": [],
+    "badges": [
+      "trending",
+      "popular"
+    ],
     "sku": "ELX-ANKER65W-007",
     "description": "Compact fast charger for laptops, tablets, and phones.",
     "specifications": {
@@ -265,7 +272,8 @@
     "inStock": true,
     "stockQuantity": 132,
     "badges": [
-      "hot"
+      "hot",
+      "popular"
     ],
     "sku": "ELX-SANUSFUL-051",
     "description": "Full-motion wall mount with tilt, swivel, and extension for 37-75 inch TVs.",
@@ -297,7 +305,9 @@
     ],
     "inStock": false,
     "stockQuantity": 4,
-    "badges": [],
+    "badges": [
+      "trending"
+    ],
     "sku": "ELX-STEELSER-010",
     "description": "Wireless gaming headset with lossless 2.4GHz audio.",
     "specifications": {
@@ -327,7 +337,8 @@
     "inStock": true,
     "stockQuantity": 88,
     "badges": [
-      "new"
+      "new",
+      "popular"
     ],
     "sku": "ELX-156LAPTO-011",
     "description": "Water-resistant backpack with padded laptop compartment.",
@@ -391,7 +402,9 @@
     "inStock": false,
     "stockQuantity": 5,
     "badges": [
-      "value-of-the-day"
+      "value-of-the-day",
+      "trending",
+      "popular"
     ],
     "sku": "ELX-DELL24FU-013",
     "description": "Reliable everyday monitor for office and home use.",
@@ -516,7 +529,8 @@
     "stockQuantity": 115,
     "badges": [
       "value-of-the-day",
-      "new"
+      "new",
+      "popular"
     ],
     "sku": "ELX-MACBOOKA-017",
     "description": "Fanless design with all-day battery life and M2 performance.",
@@ -577,7 +591,10 @@
     ],
     "inStock": false,
     "stockQuantity": 3,
-    "badges": [],
+    "badges": [
+      "trending",
+      "popular"
+    ],
     "sku": "ELX-FITBITCH-019",
     "description": "Slim fitness tracker with built-in GPS and heart rate tracking.",
     "specifications": {
@@ -641,7 +658,8 @@
     "inStock": false,
     "stockQuantity": 3,
     "badges": [
-      "trending"
+      "trending",
+      "popular"
     ],
     "sku": "ELX-SAMSUNGG-021",
     "description": "Flagship Android phone with S Pen and 200MP camera.",
@@ -675,7 +693,8 @@
     "inStock": true,
     "stockQuantity": 25,
     "badges": [
-      "new"
+      "new",
+      "trending"
     ],
     "sku": "ELX-PS5DUALS-022",
     "description": "Haptic feedback and adaptive triggers for immersive gaming.",
@@ -706,7 +725,9 @@
     ],
     "inStock": true,
     "stockQuantity": 57,
-    "badges": [],
+    "badges": [
+      "popular"
+    ],
     "sku": "ELX-MOTOROLA-023",
     "description": "DOCSIS 3.1 cable modem supporting multi-gig internet speeds.",
     "specifications": {
@@ -768,7 +789,9 @@
     "inStock": true,
     "stockQuantity": 111,
     "badges": [
-      "value-of-the-day"
+      "value-of-the-day",
+      "trending",
+      "popular"
     ],
     "sku": "ELX-USBCTOHD-025",
     "description": "Connect your laptop or phone to any HDMI display.",
@@ -831,7 +854,8 @@
     "inStock": true,
     "stockQuantity": 190,
     "badges": [
-      "top-seller"
+      "top-seller",
+      "popular"
     ],
     "sku": "ELX-NETGEARN-027",
     "description": "Whole-home mesh Wi-Fi system for seamless coverage.",
@@ -864,7 +888,8 @@
     "inStock": true,
     "stockQuantity": 44,
     "badges": [
-      "new"
+      "new",
+      "trending"
     ],
     "sku": "ELX-SAMSUNGG-028",
     "description": "Compact true wireless earbuds with intelligent ANC.",
@@ -893,7 +918,8 @@
     "inStock": true,
     "stockQuantity": 62,
     "badges": [
-      "top-seller"
+      "top-seller",
+      "popular"
     ],
     "sku": "ELX-PHILIPSH-029",
     "description": "Color-changing smart bulbs controllable via app and voice.",
@@ -956,7 +982,10 @@
     ],
     "inStock": true,
     "stockQuantity": 153,
-    "badges": [],
+    "badges": [
+      "trending",
+      "popular"
+    ],
     "sku": "ELX-SONOSMOV-031",
     "description": "Battery-powered smart speaker for indoor and outdoor use.",
     "specifications": {
@@ -1016,7 +1045,8 @@
     "stockQuantity": 153,
     "badges": [
       "top-seller",
-      "hot"
+      "hot",
+      "popular"
     ],
     "sku": "ELX-APPLE20W-033",
     "description": "Fast, efficient charging for iPhone and iPad.",
@@ -1083,7 +1113,8 @@
     "stockQuantity": 19,
     "badges": [
       "hot",
-      "value-of-the-day"
+      "value-of-the-day",
+      "popular"
     ],
     "sku": "ELX-RINGINDO-035",
     "description": "Compact indoor security camera with live view and alerts.",
@@ -1146,7 +1177,9 @@
     "inStock": true,
     "stockQuantity": 58,
     "badges": [
-      "new"
+      "new",
+      "trending",
+      "popular"
     ],
     "sku": "ELX-GARMINVEN-052",
     "description": "GPS smartwatch with advanced sleep coaching and up to 14 days of battery life.",
@@ -1274,7 +1307,8 @@
     "inStock": true,
     "stockQuantity": 21,
     "badges": [
-      "hot"
+      "hot",
+      "popular"
     ],
     "sku": "ELX-BENQTK850-053",
     "description": "True 4K HDR home projector with vivid color accuracy for movies and sports.",
@@ -1338,7 +1372,9 @@
     "inStock": false,
     "stockQuantity": 5,
     "badges": [
-      "value-of-the-day"
+      "value-of-the-day",
+      "trending",
+      "popular"
     ],
     "sku": "ELX-BRAIDEDU-043",
     "description": "Durable braided cable for fast charging and data transfer.",
@@ -1403,7 +1439,8 @@
     "stockQuantity": 188,
     "badges": [
       "trending",
-      "value-of-the-day"
+      "value-of-the-day",
+      "popular"
     ],
     "sku": "ELX-XIAOMISM-045",
     "description": "Affordable fitness band with a vivid AMOLED display.",
@@ -1436,7 +1473,8 @@
     "stockQuantity": 188,
     "badges": [
       "new",
-      "top-seller"
+      "top-seller",
+      "trending"
     ],
     "sku": "ELX-BELKINBO-046",
     "description": "Compact, pocket-friendly portable charger.",
@@ -1470,7 +1508,8 @@
     "inStock": true,
     "stockQuantity": 153,
     "badges": [
-      "trending"
+      "trending",
+      "popular"
     ],
     "sku": "ELX-APPLEIPH-047",
     "description": "Compact form factor with all-day battery life.",
@@ -1535,7 +1574,9 @@
     "inStock": true,
     "stockQuantity": 95,
     "badges": [
-      "top-seller"
+      "top-seller",
+      "trending",
+      "popular"
     ],
     "sku": "ELX-ANKERNEB-049",
     "description": "Portable projector with built-in battery for outdoor movie nights.",

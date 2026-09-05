@@ -117,6 +117,13 @@ export async function getProducts(query: GetProductsQuery) {
     conditions.push({ $expr: { $and: [{ $gte: [discountExpr, min] }, { $lte: [discountExpr, max] }] } });
   }
 
+  // 4.6. Badge filter (e.g. "trending", "popular")
+  const activeBadge = query.badge || query.badges;
+  if (activeBadge?.trim()) {
+    const badgeRegex = new RegExp(`^${escapeRegex(activeBadge.trim())}$`, "i");
+    conditions.push({ badges: badgeRegex });
+  }
+
   // 5. Boolean filters
   if (isFeatured !== undefined) conditions.push({ isFeatured });
   if (inStock !== undefined) conditions.push({ inStock });
