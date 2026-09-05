@@ -40,6 +40,9 @@ export const getProductsQuerySchema = z.object({
   search: z.string().optional(),
   minPrice: z.coerce.number().nonnegative().optional(),
   maxPrice: z.coerce.number().nonnegative().optional(),
+  minDiscount: z.coerce.number().nonnegative().optional(),
+  maxDiscount: z.coerce.number().nonnegative().optional(),
+  discount: z.string().optional(),
   isFeatured: z
     .preprocess(
       (v) => (v === "true" || v === true ? true : v === "false" || v === false ? false : undefined),

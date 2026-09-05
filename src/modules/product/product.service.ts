@@ -101,6 +101,22 @@ export async function getProducts(query: GetProductsQuery) {
     conditions.push({ price: priceFilter });
   }
 
+  // 4.5. Discount range filter (e.g. "0-20", "20-40")
+  if (query.discount || query.minDiscount !== undefined || query.maxDiscount !== undefined) {
+    const [minStr, maxStr] = (query.discount || "").split("-");
+    const min = query.minDiscount ?? (minStr ? Number(minStr) : 0);
+    const max = query.maxDiscount ?? (maxStr ? Number(maxStr) : 100);
+
+    const discountExpr = {
+      $cond: [
+        { $and: [{ $gt: ["$originalPrice", "$price"] }, { $gt: ["$originalPrice", 0] }] },
+        { $round: [{ $multiply: [{ $divide: [{ $subtract: ["$originalPrice", "$price"] }, "$originalPrice"] }, 100] }, 0] },
+        { $ifNull: ["$discountPercentage", 0] },
+      ],
+    };
+    conditions.push({ $expr: { $and: [{ $gte: [discountExpr, min] }, { $lte: [discountExpr, max] }] } });
+  }
+
   // 5. Boolean filters
   if (isFeatured !== undefined) conditions.push({ isFeatured });
   if (inStock !== undefined) conditions.push({ inStock });
