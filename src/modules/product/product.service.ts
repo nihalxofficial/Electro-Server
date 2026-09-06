@@ -170,3 +170,11 @@ export async function deleteProduct(id: string) {
   const product = await Product.findByIdAndDelete(id);
   if (!product) throw new ApiError(404, "Product not found");
 }
+
+export async function getProductBySlug(slug: string) {
+  const product = await Product.findOne({ slug })
+    .populate("categoryId", "name slug")
+    .populate("subCategoryIds", "name slug");
+  if (!product) throw new ApiError(404, "Product not found");
+  return formatProduct(product);
+}

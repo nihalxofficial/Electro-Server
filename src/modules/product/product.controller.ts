@@ -18,6 +18,11 @@ export const getProducts = catchAsync(async (req, res, next) => {
   apiResponse(res, 200, result, "Products fetched successfully");
 });
 
+export const getProductBySlug = catchAsync(async (req, res) => {
+  const product = await productService.getProductBySlug(req.params.slug as string);
+  apiResponse(res, 200, product, "Product fetched successfully");
+});
+
 export const updateProduct = catchAsync(async (req, res) => {
   const product = await productService.updateProduct(req.params.id as string, req.body);
   apiResponse(res, 200, product, "Product updated");
