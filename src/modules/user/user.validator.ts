@@ -1,0 +1,20 @@
+import { z } from "zod";
+
+export const updateUserSchema = z.object({
+  name: z.string().min(1).optional(),
+  image: z.string().url().optional(),
+  role: z.enum(["admin", "customer"]).optional(),
+  plan: z.string().optional(),
+  status: z.enum(["active", "suspended"]).optional(),
+});
+
+export const getUsersQuerySchema = z.object({
+  role: z.string().optional(),
+  status: z.string().optional(),
+  search: z.string().optional(),
+  page: z.coerce.number().int().positive().default(1),
+  limit: z.coerce.number().int().positive().max(100).default(20),
+});
+
+export type UpdateUserInput = z.infer<typeof updateUserSchema>;
+export type GetUsersQuery = z.infer<typeof getUsersQuerySchema>;
