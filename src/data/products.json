@@ -31,7 +31,13 @@
     },
     "isFeatured": false,
     "originalPrice": 1199,
-    "discountPercentage": 46
+    "discountPercentage": 46,
+    "createdAt": {
+      "$date": "2026-08-26T09:15:20.970Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:15:20.970Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -63,7 +69,13 @@
     },
     "isFeatured": false,
     "originalPrice": 321.39,
-    "discountPercentage": 23
+    "discountPercentage": 23,
+    "createdAt": {
+      "$date": "2026-08-26T09:18:09.404Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:18:09.404Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -94,7 +106,13 @@
       "Subcategory": "Smart Speakers",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T09:21:41.049Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:21:41.049Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -127,7 +145,13 @@
     },
     "isFeatured": false,
     "originalPrice": 699,
-    "discountPercentage": 50
+    "discountPercentage": 50,
+    "createdAt": {
+      "$date": "2026-08-26T09:24:04.840Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:24:04.840Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -160,7 +184,13 @@
     },
     "isFeatured": false,
     "originalPrice": 479.65,
-    "discountPercentage": 27
+    "discountPercentage": 27,
+    "createdAt": {
+      "$date": "2026-08-26T09:27:34.096Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:27:34.096Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -189,7 +219,13 @@
     },
     "isFeatured": false,
     "originalPrice": 119.99,
-    "discountPercentage": 83
+    "discountPercentage": 83,
+    "createdAt": {
+      "$date": "2026-08-26T09:30:23.596Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:30:23.596Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -223,7 +259,13 @@
     },
     "isFeatured": false,
     "originalPrice": 119.99,
-    "discountPercentage": 67
+    "discountPercentage": 67,
+    "createdAt": {
+      "$date": "2026-08-26T09:33:03.931Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:33:03.931Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -254,7 +296,13 @@
     },
     "isFeatured": false,
     "originalPrice": 169.99,
-    "discountPercentage": 47
+    "discountPercentage": 47,
+    "createdAt": {
+      "$date": "2026-08-26T09:36:32.219Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:36:32.219Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -285,7 +333,13 @@
     },
     "isFeatured": false,
     "originalPrice": 109.99,
-    "discountPercentage": 27
+    "discountPercentage": 27,
+    "createdAt": {
+      "$date": "2026-08-26T09:39:02.088Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:39:02.088Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -318,7 +372,13 @@
     },
     "isFeatured": false,
     "originalPrice": 171.12,
-    "discountPercentage": 13
+    "discountPercentage": 13,
+    "createdAt": {
+      "$date": "2026-08-26T09:42:27.428Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:42:27.428Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -348,7 +408,13 @@
       "Subcategory": "Laptop Bags & Sleeves",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T09:45:04.246Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:45:04.246Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -381,7 +447,13 @@
     },
     "isFeatured": false,
     "originalPrice": 189,
-    "discountPercentage": 48
+    "discountPercentage": 48,
+    "createdAt": {
+      "$date": "2026-08-26T09:48:05.564Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:48:05.564Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -414,7 +486,13 @@
       "Subcategory": "Monitors",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T09:51:27.060Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:51:27.060Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -446,7 +524,13 @@
     },
     "isFeatured": false,
     "originalPrice": 150.6,
-    "discountPercentage": 14
+    "discountPercentage": 14,
+    "createdAt": {
+      "$date": "2026-08-26T09:54:52.579Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:54:52.579Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -478,7 +562,13 @@
     },
     "isFeatured": false,
     "originalPrice": 41.14,
-    "discountPercentage": 27
+    "discountPercentage": 27,
+    "createdAt": {
+      "$date": "2026-08-26T09:57:07.970Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T09:57:07.970Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -509,7 +599,13 @@
       "Subcategory": "Desktop Computers",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T10:00:14.645Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:00:14.645Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -540,7 +636,13 @@
       "Subcategory": "Laptops",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T10:03:40.596Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:03:40.596Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -573,7 +675,13 @@
     },
     "isFeatured": false,
     "originalPrice": 335.3,
-    "discountPercentage": 17
+    "discountPercentage": 17,
+    "createdAt": {
+      "$date": "2026-08-26T10:06:03.590Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:06:03.590Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -605,7 +713,13 @@
     },
     "isFeatured": true,
     "originalPrice": 186.82,
-    "discountPercentage": 15
+    "discountPercentage": 15,
+    "createdAt": {
+      "$date": "2026-08-26T10:09:37.406Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:09:37.406Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -637,7 +751,13 @@
       "Subcategory": "Smartwatches",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T10:12:03.999Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:12:03.999Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -671,7 +791,13 @@
     },
     "isFeatured": false,
     "originalPrice": 1459.33,
-    "discountPercentage": 18
+    "discountPercentage": 18,
+    "createdAt": {
+      "$date": "2026-08-26T10:15:14.047Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:15:14.047Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -706,7 +832,13 @@
     },
     "isFeatured": true,
     "originalPrice": 78.22,
-    "discountPercentage": 11
+    "discountPercentage": 11,
+    "createdAt": {
+      "$date": "2026-08-26T10:18:35.879Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:18:35.879Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -738,7 +870,13 @@
     },
     "isFeatured": false,
     "originalPrice": 249,
-    "discountPercentage": 48
+    "discountPercentage": 48,
+    "createdAt": {
+      "$date": "2026-08-26T10:21:08.296Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:21:08.296Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -767,7 +905,13 @@
       "Subcategory": "Android Phones",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T10:24:26.147Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:24:26.147Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -803,7 +947,13 @@
     },
     "isFeatured": false,
     "originalPrice": 26.28,
-    "discountPercentage": 24
+    "discountPercentage": 24,
+    "createdAt": {
+      "$date": "2026-08-26T10:27:34.120Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:27:34.120Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -835,7 +985,13 @@
     },
     "isFeatured": false,
     "originalPrice": 1398.14,
-    "discountPercentage": 29
+    "discountPercentage": 29,
+    "createdAt": {
+      "$date": "2026-08-26T10:30:36.315Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:30:36.315Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -867,7 +1023,13 @@
     },
     "isFeatured": false,
     "originalPrice": 205.37,
-    "discountPercentage": 13
+    "discountPercentage": 13,
+    "createdAt": {
+      "$date": "2026-08-26T10:33:35.835Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:33:35.835Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -899,7 +1061,13 @@
       "Subcategory": "Earbuds",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T10:36:43.185Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:36:43.185Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -931,7 +1099,13 @@
     },
     "isFeatured": false,
     "originalPrice": 159.99,
-    "discountPercentage": 44
+    "discountPercentage": 44,
+    "createdAt": {
+      "$date": "2026-08-26T10:39:06.595Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:39:06.595Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -962,7 +1136,13 @@
     },
     "isFeatured": false,
     "originalPrice": 899,
-    "discountPercentage": 44
+    "discountPercentage": 44,
+    "createdAt": {
+      "$date": "2026-08-26T10:42:36.654Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:42:36.654Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -996,7 +1176,13 @@
     },
     "isFeatured": true,
     "originalPrice": 491.79,
-    "discountPercentage": 19
+    "discountPercentage": 19,
+    "createdAt": {
+      "$date": "2026-08-26T10:45:12.381Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:45:12.381Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1024,7 +1210,13 @@
       "Subcategory": "iPhones",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T10:48:06.560Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:48:06.560Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1058,7 +1250,13 @@
     },
     "isFeatured": false,
     "originalPrice": 23.49,
-    "discountPercentage": 15
+    "discountPercentage": 15,
+    "createdAt": {
+      "$date": "2026-08-26T10:51:45.064Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:51:45.064Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1091,7 +1289,13 @@
     },
     "isFeatured": false,
     "originalPrice": 109.99,
-    "discountPercentage": 45
+    "discountPercentage": 45,
+    "createdAt": {
+      "$date": "2026-08-26T10:54:36.061Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:54:36.061Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1126,7 +1330,13 @@
     },
     "isFeatured": false,
     "originalPrice": 299.99,
-    "discountPercentage": 80
+    "discountPercentage": 80,
+    "createdAt": {
+      "$date": "2026-08-26T10:57:39.210Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T10:57:39.210Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1157,7 +1367,13 @@
     },
     "isFeatured": false,
     "originalPrice": 647.71,
-    "discountPercentage": 23
+    "discountPercentage": 23,
+    "createdAt": {
+      "$date": "2026-08-26T11:00:31.696Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:00:31.696Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1189,7 +1405,13 @@
       "Subcategory": "Smartwatches",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": true
+    "isFeatured": true,
+    "createdAt": {
+      "$date": "2026-08-26T11:03:34.437Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:03:34.437Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1222,7 +1444,13 @@
     },
     "isFeatured": true,
     "originalPrice": 830.05,
-    "discountPercentage": 22
+    "discountPercentage": 22,
+    "createdAt": {
+      "$date": "2026-08-26T11:06:49.321Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:06:49.321Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1252,7 +1480,13 @@
       "Subcategory": "Smart TVs",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T11:09:29.599Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:09:29.599Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1287,7 +1521,13 @@
     },
     "isFeatured": false,
     "originalPrice": 99.99,
-    "discountPercentage": 60
+    "discountPercentage": 60,
+    "createdAt": {
+      "$date": "2026-08-26T11:12:59.464Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:12:59.464Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1318,7 +1558,13 @@
       "Subcategory": "Projectors",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T11:15:23.306Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:15:23.306Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1351,7 +1597,13 @@
     },
     "isFeatured": false,
     "originalPrice": 674.7,
-    "discountPercentage": 19
+    "discountPercentage": 19,
+    "createdAt": {
+      "$date": "2026-08-26T11:18:15.813Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:18:15.813Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1386,7 +1638,13 @@
     },
     "isFeatured": true,
     "originalPrice": 79.99,
-    "discountPercentage": 84
+    "discountPercentage": 84,
+    "createdAt": {
+      "$date": "2026-08-26T11:21:11.715Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:21:11.715Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1418,7 +1676,13 @@
       "Subcategory": "Gaming Laptops",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": true
+    "isFeatured": true,
+    "createdAt": {
+      "$date": "2026-08-26T11:24:49.249Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:24:49.249Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1452,7 +1716,13 @@
     },
     "isFeatured": false,
     "originalPrice": 64.43,
-    "discountPercentage": 22
+    "discountPercentage": 22,
+    "createdAt": {
+      "$date": "2026-08-26T11:27:05.588Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:27:05.588Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1486,7 +1756,13 @@
     },
     "isFeatured": false,
     "originalPrice": 159.99,
-    "discountPercentage": 81
+    "discountPercentage": 81,
+    "createdAt": {
+      "$date": "2026-08-26T11:30:19.537Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:30:19.537Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1521,7 +1797,13 @@
     },
     "isFeatured": false,
     "originalPrice": 680.43,
-    "discountPercentage": 19
+    "discountPercentage": 19,
+    "createdAt": {
+      "$date": "2026-08-26T11:33:31.896Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:33:31.896Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1553,7 +1835,13 @@
       "Subcategory": "Gaming Consoles",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T11:36:21.746Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:36:21.746Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1588,7 +1876,13 @@
     },
     "isFeatured": true,
     "originalPrice": 655.72,
-    "discountPercentage": 24
+    "discountPercentage": 24,
+    "createdAt": {
+      "$date": "2026-08-26T11:39:28.294Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:39:28.294Z"
+    }
   },
   {
     "ownerId": "6a8d9abc9bd8b81623612579",
@@ -1622,6 +1916,12 @@
       "Subcategory": "Android Phones",
       "Warranty": "1 Year Limited Warranty"
     },
-    "isFeatured": false
+    "isFeatured": false,
+    "createdAt": {
+      "$date": "2026-08-26T11:42:38.074Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-26T11:42:38.074Z"
+    }
   }
 ]
