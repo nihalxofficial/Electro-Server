@@ -1,0 +1,1478 @@
+[
+  {
+    "productId": "6aa2243baadfc6d152f0097f",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 4,
+    "comment": "Battery life is better than advertised.",
+    "createdAt": {
+      "$date": "2026-09-07T00:08:28.487Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T00:08:28.487Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097f",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Exceeded my expectations, highly recommend.",
+    "createdAt": {
+      "$date": "2026-09-06T01:54:26.829Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-06T01:54:26.829Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097f",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 4,
+    "comment": "Good value for the price, would buy again.",
+    "createdAt": {
+      "$date": "2026-09-03T15:18:13.630Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-03T15:18:13.630Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097e",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Battery life is better than advertised.",
+    "createdAt": {
+      "$date": "2026-09-09T23:03:45.614Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T23:03:45.614Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097e",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 4,
+    "comment": "Works exactly as described, very happy with this purchase.",
+    "createdAt": {
+      "$date": "2026-09-04T15:22:07.200Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T15:22:07.200Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097d",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 4,
+    "comment": "Works exactly as described, very happy with this purchase.",
+    "createdAt": {
+      "$date": "2026-09-02T09:42:34.564Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-02T09:42:34.564Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097d",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 4,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-09-04T22:27:42.030Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T22:27:42.030Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097c",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "One of the better purchases I've made this year.",
+    "createdAt": {
+      "$date": "2026-09-05T17:55:59.867Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T17:55:59.867Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097c",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Works exactly as described, very happy with this purchase.",
+    "createdAt": {
+      "$date": "2026-09-09T14:35:15.406Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T14:35:15.406Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097b",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Packaging was excellent and product works perfectly.",
+    "createdAt": {
+      "$date": "2026-09-05T19:59:34.776Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T19:59:34.776Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097b",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 5,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-09-09T05:56:31.816Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T05:56:31.816Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097b",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 5,
+    "comment": "Setup was a bit confusing but works great now.",
+    "createdAt": {
+      "$date": "2026-09-01T23:31:28.195Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T23:31:28.195Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097a",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-09-07T05:42:05.994Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T05:42:05.994Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0097a",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Not bad, but I expected slightly better quality.",
+    "createdAt": {
+      "$date": "2026-09-09T23:48:35.874Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T23:48:35.874Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00979",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Decent product overall, nothing extraordinary.",
+    "createdAt": {
+      "$date": "2026-09-09T10:38:07.303Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T10:38:07.303Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00979",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 5,
+    "comment": "Simple, reliable, and gets the job done.",
+    "createdAt": {
+      "$date": "2026-09-08T23:22:20.248Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T23:22:20.248Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00978",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 4,
+    "comment": "Works fine but customer service could be better.",
+    "createdAt": {
+      "$date": "2026-09-07T11:29:07.588Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T11:29:07.588Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00978",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 4,
+    "comment": "A bit pricey but the quality justifies it.",
+    "createdAt": {
+      "$date": "2026-09-07T09:50:41.930Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T09:50:41.930Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00977",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Decent product overall, nothing extraordinary.",
+    "createdAt": {
+      "$date": "2026-09-01T23:16:36.903Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T23:16:36.903Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00977",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 4,
+    "comment": "Battery life is better than advertised.",
+    "createdAt": {
+      "$date": "2026-09-04T04:53:54.039Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T04:53:54.039Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00976",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 4,
+    "comment": "Simple, reliable, and gets the job done.",
+    "createdAt": {
+      "$date": "2026-08-31T14:41:27.179Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-31T14:41:27.179Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00976",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Solid build quality, arrived earlier than expected.",
+    "createdAt": {
+      "$date": "2026-09-02T12:18:06.630Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-02T12:18:06.630Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00976",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-09-06T06:58:56.275Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-06T06:58:56.275Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00975",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Good value for the price, would buy again.",
+    "createdAt": {
+      "$date": "2026-09-04T13:23:52.094Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T13:23:52.094Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00975",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 5,
+    "comment": "One of the better purchases I've made this year.",
+    "createdAt": {
+      "$date": "2026-09-02T19:17:14.707Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-02T19:17:14.707Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00975",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 4,
+    "comment": "Would definitely recommend to friends and family.",
+    "createdAt": {
+      "$date": "2026-09-07T11:57:01.018Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T11:57:01.018Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00974",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 4,
+    "comment": "Works exactly as described, very happy with this purchase.",
+    "createdAt": {
+      "$date": "2026-09-08T14:55:14.318Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T14:55:14.318Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00974",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Works fine but customer service could be better.",
+    "createdAt": {
+      "$date": "2026-09-09T03:31:26.376Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T03:31:26.376Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00974",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 3,
+    "comment": "Solid build quality, arrived earlier than expected.",
+    "createdAt": {
+      "$date": "2026-09-07T19:37:55.701Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T19:37:55.701Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00973",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 4,
+    "comment": "Perfect for daily use, no issues after weeks of use.",
+    "createdAt": {
+      "$date": "2026-08-31T08:35:36.596Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-31T08:35:36.596Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00973",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 4,
+    "comment": "Works exactly as described, very happy with this purchase.",
+    "createdAt": {
+      "$date": "2026-09-09T03:19:53.263Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T03:19:53.263Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00973",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 4,
+    "comment": "Took a star off for minor build issues, otherwise great.",
+    "createdAt": {
+      "$date": "2026-09-03T06:15:23.468Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-03T06:15:23.468Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00972",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Battery life is better than advertised.",
+    "createdAt": {
+      "$date": "2026-09-01T03:29:59.235Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T03:29:59.235Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00972",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-08-31T08:01:29.261Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-31T08:01:29.261Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00972",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 5,
+    "comment": "Works exactly as described, very happy with this purchase.",
+    "createdAt": {
+      "$date": "2026-09-07T08:20:48.530Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T08:20:48.530Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00971",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 4,
+    "comment": "Perfect for daily use, no issues after weeks of use.",
+    "createdAt": {
+      "$date": "2026-09-04T17:17:44.203Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T17:17:44.203Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00971",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 4,
+    "comment": "Simple, reliable, and gets the job done.",
+    "createdAt": {
+      "$date": "2026-09-06T23:35:46.597Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-06T23:35:46.597Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00970",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 5,
+    "comment": "Perfect for daily use, no issues after weeks of use.",
+    "createdAt": {
+      "$date": "2026-09-09T07:55:43.841Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T07:55:43.841Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00970",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Exceeded my expectations, highly recommend.",
+    "createdAt": {
+      "$date": "2026-09-02T21:00:47.850Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-02T21:00:47.850Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00970",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Took a star off for minor build issues, otherwise great.",
+    "createdAt": {
+      "$date": "2026-09-01T14:16:40.733Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T14:16:40.733Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096f",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 4,
+    "comment": "Packaging was excellent and product works perfectly.",
+    "createdAt": {
+      "$date": "2026-09-09T08:14:43.584Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T08:14:43.584Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096f",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "One of the better purchases I've made this year.",
+    "createdAt": {
+      "$date": "2026-09-01T05:18:52.414Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T05:18:52.414Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096f",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Battery life is better than advertised.",
+    "createdAt": {
+      "$date": "2026-09-05T22:10:51.815Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T22:10:51.815Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096e",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 4,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-09-05T03:16:48.204Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T03:16:48.204Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096e",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Battery life is better than advertised.",
+    "createdAt": {
+      "$date": "2026-09-09T14:25:15.037Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T14:25:15.037Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096d",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 5,
+    "comment": "Works fine but customer service could be better.",
+    "createdAt": {
+      "$date": "2026-09-01T13:20:12.163Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T13:20:12.163Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096d",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 4,
+    "comment": "Simple, reliable, and gets the job done.",
+    "createdAt": {
+      "$date": "2026-09-07T03:33:01.914Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T03:33:01.914Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096c",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 4,
+    "comment": "Decent product overall, nothing extraordinary.",
+    "createdAt": {
+      "$date": "2026-09-09T17:24:24.668Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T17:24:24.668Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096c",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 4,
+    "comment": "Setup was a bit confusing but works great now.",
+    "createdAt": {
+      "$date": "2026-09-04T15:39:19.209Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T15:39:19.209Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096c",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 4,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-09-08T23:44:03.399Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T23:44:03.399Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096b",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 3,
+    "comment": "Packaging was excellent and product works perfectly.",
+    "createdAt": {
+      "$date": "2026-09-09T18:27:55.038Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T18:27:55.038Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096b",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Perfect for daily use, no issues after weeks of use.",
+    "createdAt": {
+      "$date": "2026-09-03T21:28:02.029Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-03T21:28:02.029Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096a",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Good value for the price, would buy again.",
+    "createdAt": {
+      "$date": "2026-09-04T08:09:02.143Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T08:09:02.143Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0096a",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Battery life is better than advertised.",
+    "createdAt": {
+      "$date": "2026-09-01T06:26:07.694Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T06:26:07.694Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00969",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Took a star off for minor build issues, otherwise great.",
+    "createdAt": {
+      "$date": "2026-09-05T06:24:20.168Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T06:24:20.168Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00969",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Setup was a bit confusing but works great now.",
+    "createdAt": {
+      "$date": "2026-09-01T21:40:18.390Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T21:40:18.390Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00969",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Decent product overall, nothing extraordinary.",
+    "createdAt": {
+      "$date": "2026-09-07T12:26:43.586Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T12:26:43.586Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00968",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 5,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-08-31T17:58:26.992Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-31T17:58:26.992Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00968",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Good value for the price, would buy again.",
+    "createdAt": {
+      "$date": "2026-09-03T12:08:24.124Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-03T12:08:24.124Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00968",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 5,
+    "comment": "Setup was a bit confusing but works great now.",
+    "createdAt": {
+      "$date": "2026-09-08T03:00:26.469Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T03:00:26.469Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00967",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Perfect for daily use, no issues after weeks of use.",
+    "createdAt": {
+      "$date": "2026-09-04T16:02:08.958Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T16:02:08.958Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00967",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 5,
+    "comment": "Battery life is better than advertised.",
+    "createdAt": {
+      "$date": "2026-09-08T23:33:21.030Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T23:33:21.030Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00967",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Packaging was excellent and product works perfectly.",
+    "createdAt": {
+      "$date": "2026-09-10T04:47:51.232Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T04:47:51.232Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00966",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 5,
+    "comment": "Works fine but customer service could be better.",
+    "createdAt": {
+      "$date": "2026-09-03T02:28:14.596Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-03T02:28:14.596Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00966",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 4,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-08-31T21:14:48.718Z"
+    },
+    "updatedAt": {
+      "$date": "2026-08-31T21:14:48.718Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00965",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 4,
+    "comment": "Simple, reliable, and gets the job done.",
+    "createdAt": {
+      "$date": "2026-09-01T00:25:47.884Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T00:25:47.884Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00965",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 4,
+    "comment": "Would definitely recommend to friends and family.",
+    "createdAt": {
+      "$date": "2026-09-01T23:05:26.626Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T23:05:26.626Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00965",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 5,
+    "comment": "A bit pricey but the quality justifies it.",
+    "createdAt": {
+      "$date": "2026-09-05T00:39:22.322Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T00:39:22.322Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00964",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 5,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-09-07T01:13:55.265Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T01:13:55.265Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00964",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Simple, reliable, and gets the job done.",
+    "createdAt": {
+      "$date": "2026-09-03T12:09:15.129Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-03T12:09:15.129Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00963",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-09-04T18:52:15.517Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T18:52:15.517Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00963",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Works fine but customer service could be better.",
+    "createdAt": {
+      "$date": "2026-09-07T03:29:54.024Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T03:29:54.024Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00962",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "A bit pricey but the quality justifies it.",
+    "createdAt": {
+      "$date": "2026-09-08T23:48:07.161Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T23:48:07.161Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00962",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 3,
+    "comment": "Really impressed with the quality for this price range.",
+    "createdAt": {
+      "$date": "2026-09-08T11:56:52.974Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T11:56:52.974Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00961",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "One of the better purchases I've made this year.",
+    "createdAt": {
+      "$date": "2026-09-01T18:32:47.615Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T18:32:47.615Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00961",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Works fine but customer service could be better.",
+    "createdAt": {
+      "$date": "2026-09-09T23:48:34.464Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T23:48:34.464Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00961",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 4,
+    "comment": "Simple, reliable, and gets the job done.",
+    "createdAt": {
+      "$date": "2026-09-03T23:21:50.097Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-03T23:21:50.097Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00960",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 4,
+    "comment": "One of the better purchases I've made this year.",
+    "createdAt": {
+      "$date": "2026-09-06T13:22:39.824Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-06T13:22:39.824Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00960",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Packaging was excellent and product works perfectly.",
+    "createdAt": {
+      "$date": "2026-09-08T06:12:11.163Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T06:12:11.163Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095f",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 4,
+    "comment": "Works fine but customer service could be better.",
+    "createdAt": {
+      "$date": "2026-09-07T17:46:14.189Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T17:46:14.189Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095f",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 4,
+    "comment": "Solid build quality, arrived earlier than expected.",
+    "createdAt": {
+      "$date": "2026-09-05T14:54:00.909Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T14:54:00.909Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095f",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 3,
+    "comment": "Simple, reliable, and gets the job done.",
+    "createdAt": {
+      "$date": "2026-09-01T04:45:43.967Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T04:45:43.967Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095e",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 4,
+    "comment": "One of the better purchases I've made this year.",
+    "createdAt": {
+      "$date": "2026-09-02T03:35:28.509Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-02T03:35:28.509Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095e",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 4,
+    "comment": "Decent product overall, nothing extraordinary.",
+    "createdAt": {
+      "$date": "2026-09-03T11:58:53.630Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-03T11:58:53.630Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095e",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 4,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-09-05T15:34:28.051Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T15:34:28.051Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095d",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-09-05T19:24:26.520Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T19:24:26.520Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095d",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 3,
+    "comment": "Took a star off for minor build issues, otherwise great.",
+    "createdAt": {
+      "$date": "2026-09-01T02:19:32.828Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T02:19:32.828Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095c",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 3,
+    "comment": "One of the better purchases I've made this year.",
+    "createdAt": {
+      "$date": "2026-09-07T17:29:50.876Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T17:29:50.876Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095c",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Battery life is better than advertised.",
+    "createdAt": {
+      "$date": "2026-09-01T04:32:29.430Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T04:32:29.430Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095b",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Exactly what I needed, fast shipping too.",
+    "createdAt": {
+      "$date": "2026-09-05T14:18:43.574Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T14:18:43.574Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095b",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 4,
+    "comment": "Really impressed with the quality for this price range.",
+    "createdAt": {
+      "$date": "2026-09-06T05:59:11.250Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-06T05:59:11.250Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095b",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 4,
+    "comment": "Good value for the price, would buy again.",
+    "createdAt": {
+      "$date": "2026-09-03T08:35:57.919Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-03T08:35:57.919Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095a",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Really impressed with the quality for this price range.",
+    "createdAt": {
+      "$date": "2026-09-06T16:13:30.256Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-06T16:13:30.256Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095a",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Great performance and easy to set up.",
+    "createdAt": {
+      "$date": "2026-09-08T06:01:31.147Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T06:01:31.147Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0095a",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 4,
+    "comment": "Packaging was excellent and product works perfectly.",
+    "createdAt": {
+      "$date": "2026-09-09T04:20:34.466Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T04:20:34.466Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00959",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 5,
+    "comment": "Works fine but customer service could be better.",
+    "createdAt": {
+      "$date": "2026-09-08T18:31:52.683Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T18:31:52.683Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00959",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Took a star off for minor build issues, otherwise great.",
+    "createdAt": {
+      "$date": "2026-09-05T09:22:17.429Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T09:22:17.429Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00958",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "A bit pricey but the quality justifies it.",
+    "createdAt": {
+      "$date": "2026-09-08T13:02:41.803Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T13:02:41.803Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00958",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 4,
+    "comment": "Setup was a bit confusing but works great now.",
+    "createdAt": {
+      "$date": "2026-09-04T21:42:21.701Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T21:42:21.701Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00958",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 4,
+    "comment": "Great performance and easy to set up.",
+    "createdAt": {
+      "$date": "2026-09-06T23:44:28.668Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-06T23:44:28.668Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00957",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Works exactly as described, very happy with this purchase.",
+    "createdAt": {
+      "$date": "2026-09-04T05:20:58.104Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T05:20:58.104Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00957",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Packaging was excellent and product works perfectly.",
+    "createdAt": {
+      "$date": "2026-09-09T03:01:17.164Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-09T03:01:17.164Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00956",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 5,
+    "comment": "Perfect for daily use, no issues after weeks of use.",
+    "createdAt": {
+      "$date": "2026-09-04T19:28:13.136Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T19:28:13.136Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00956",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 4,
+    "comment": "Solid build quality, arrived earlier than expected.",
+    "createdAt": {
+      "$date": "2026-09-02T10:06:11.787Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-02T10:06:11.787Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00955",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Packaging was excellent and product works perfectly.",
+    "createdAt": {
+      "$date": "2026-09-07T18:50:19.856Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T18:50:19.856Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00955",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 5,
+    "comment": "Works fine but customer service could be better.",
+    "createdAt": {
+      "$date": "2026-09-07T16:18:37.594Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T16:18:37.594Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00954",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Solid build quality, arrived earlier than expected.",
+    "createdAt": {
+      "$date": "2026-09-03T11:23:29.834Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-03T11:23:29.834Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00954",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 5,
+    "comment": "Perfect for daily use, no issues after weeks of use.",
+    "createdAt": {
+      "$date": "2026-09-10T03:40:47.932Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T03:40:47.932Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00953",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 5,
+    "comment": "Really impressed with the quality for this price range.",
+    "createdAt": {
+      "$date": "2026-09-07T22:37:18.743Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T22:37:18.743Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00953",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Works fine but customer service could be better.",
+    "createdAt": {
+      "$date": "2026-09-08T19:14:32.582Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T19:14:32.582Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00952",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Really impressed with the quality for this price range.",
+    "createdAt": {
+      "$date": "2026-09-01T22:54:37.848Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-01T22:54:37.848Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00952",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 5,
+    "comment": "One of the better purchases I've made this year.",
+    "createdAt": {
+      "$date": "2026-09-03T11:35:10.199Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-03T11:35:10.199Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00952",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 4,
+    "comment": "Simple, reliable, and gets the job done.",
+    "createdAt": {
+      "$date": "2026-09-02T01:06:23.576Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-02T01:06:23.576Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00951",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 4,
+    "comment": "Took a star off for minor build issues, otherwise great.",
+    "createdAt": {
+      "$date": "2026-09-06T05:45:27.059Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-06T05:45:27.059Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00951",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Would definitely recommend to friends and family.",
+    "createdAt": {
+      "$date": "2026-09-06T05:18:07.823Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-06T05:18:07.823Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00950",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "Solid build quality, arrived earlier than expected.",
+    "createdAt": {
+      "$date": "2026-09-05T06:53:03.321Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T06:53:03.321Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00950",
+    "userId": "6aa1714d6cc904dffb91b472",
+    "rating": 5,
+    "comment": "Does the job well, no complaints so far.",
+    "createdAt": {
+      "$date": "2026-09-08T02:12:08.664Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T02:12:08.664Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f00950",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Perfect for daily use, no issues after weeks of use.",
+    "createdAt": {
+      "$date": "2026-09-06T14:11:02.534Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-06T14:11:02.534Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0094f",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 4,
+    "comment": "Really impressed with the quality for this price range.",
+    "createdAt": {
+      "$date": "2026-09-04T08:51:29.499Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-04T08:51:29.499Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0094f",
+    "userId": "6aa1703e6cc904dffb91b46c",
+    "rating": 4,
+    "comment": "Would definitely recommend to friends and family.",
+    "createdAt": {
+      "$date": "2026-09-08T07:20:02.047Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-08T07:20:02.047Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0094f",
+    "userId": "6aa1747c6cc904dffb91b475",
+    "rating": 4,
+    "comment": "Took a star off for minor build issues, otherwise great.",
+    "createdAt": {
+      "$date": "2026-09-05T05:08:36.853Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-05T05:08:36.853Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0094e",
+    "userId": "6aa1707d6cc904dffb91b46f",
+    "rating": 5,
+    "comment": "Battery life is better than advertised.",
+    "createdAt": {
+      "$date": "2026-09-10T02:33:01.430Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-10T02:33:01.430Z"
+    }
+  },
+  {
+    "productId": "6aa2243baadfc6d152f0094e",
+    "userId": "6aa174b86cc904dffb91b478",
+    "rating": 5,
+    "comment": "A bit pricey but the quality justifies it.",
+    "createdAt": {
+      "$date": "2026-09-07T09:35:17.171Z"
+    },
+    "updatedAt": {
+      "$date": "2026-09-07T09:35:17.171Z"
+    }
+  }
+]
