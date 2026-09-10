@@ -1,10 +1,8 @@
 import { z } from "zod";
 
-const objectId = z.string().regex(/^[0-9a-fA-F]{24}$/, "Invalid ID");
-
 export const createReviewSchema = z.object({
-  productId: objectId,
-  userId: objectId,
+  productId: z.string().min(1, "Product ID is required"),
+  userId: z.string().min(1, "User ID is required"),
   rating: z.number().int().min(1, "Rating must be at least 1").max(5, "Rating cannot exceed 5"),
   comment: z.string().min(1, "Comment is required"),
 });
@@ -15,7 +13,8 @@ export const updateReviewSchema = z.object({
 });
 
 export const getReviewsQuerySchema = z.object({
-  productId: objectId.optional(),
+  productId: z.string().optional(),
+  userId: z.string().optional(),
   page: z.coerce.number().int().positive().default(1),
   limit: z.coerce.number().int().positive().max(100).default(20),
 });

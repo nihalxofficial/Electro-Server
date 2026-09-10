@@ -5,7 +5,6 @@ import * as reviewService from "./review.service";
 import { getReviewsQuerySchema } from "./review.validator";
 
 export const createReview = catchAsync(async (req, res) => {
-  console.log(req.body);
   const review = await reviewService.createReview(req.body);
   apiResponse(res, 201, review, "Review added");
 });
@@ -18,6 +17,7 @@ export const getReviews = catchAsync(async (req, res, next) => {
   const result = await reviewService.getReviews(parsed.data);
   apiResponse(res, 200, result, "Reviews fetched successfully");
 });
+
 
 export const updateReview = catchAsync(async (req, res) => {
   const review = await reviewService.updateReview(req.params.id as string, req.body);
