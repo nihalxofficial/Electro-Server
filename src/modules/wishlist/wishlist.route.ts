@@ -5,7 +5,9 @@ import * as wishlistController from "./wishlist.controller";
 
 const router = Router();
 
+router.get("/is-wishlisted", wishlistController.isWishlisted);
 router.get("/", wishlistController.getWishlist);
+router.get("/user/:userId", wishlistController.getWishlist);
 router.post("/", validate(addToWishlistSchema), wishlistController.addToWishlist);
 router.delete("/:productId", wishlistController.removeFromWishlist);
 

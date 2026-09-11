@@ -2,14 +2,21 @@ import { Cart } from "./cart.model";
 import { Product } from "../product/product.model";
 import { ApiError } from "../../utils/apiError";
 
+// Fetches user cart with populated product data and precalculated totals
 export async function getCartByUserId(userId: string) {
   const items = await Cart.find({ userId }).populate("productId").sort({ createdAt: -1 });
 
-  let subtotal = 0;
+  let totalPrice = 0;
+  let totalItems = 0;
+
   const formatted = items.map((item: any) => {
     const product = item.productId;
-    const lineTotal = product ? product.price * item.quantity : 0;
-    subtotal += lineTotal;
+    const price = product?.price || 0;
+    const lineTotal = price * item.quantity;
+
+    totalPrice += lineTotal;
+    totalItems += item.quantity;
+
     return {
       id: item._id,
       product,
@@ -20,8 +27,10 @@ export async function getCartByUserId(userId: string) {
 
   return {
     items: formatted,
-    subtotal,
-    itemCount: formatted.reduce((sum, i) => sum + i.quantity, 0),
+    totalItems,
+    totalPrice: Number(totalPrice.toFixed(2)),
+    itemCount: totalItems,
+    subtotal: Number(totalPrice.toFixed(2)),
   };
 }
 

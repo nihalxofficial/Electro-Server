@@ -2,8 +2,14 @@ import { Wishlist } from "./wishlist.model";
 import { Product } from "../product/product.model";
 import { ApiError } from "../../utils/apiError";
 
+// Fetches user wishlist and returns items along with totalItems count
 export async function getWishlistByUserId(userId: string) {
-  return Wishlist.find({ userId }).populate("productId").sort({ createdAt: -1 });
+  const items = await Wishlist.find({ userId }).populate("productId").sort({ createdAt: -1 });
+  return {
+    items,
+    totalItems: items.length,
+    itemCount: items.length,
+  };
 }
 
 export async function addToWishlist(userId: string, productId: string) {
@@ -22,3 +28,8 @@ export async function removeFromWishlist(userId: string, productId: string) {
   if (!item) throw new ApiError(404, "Item not found in wishlist");
   return item;
 }
+
+export async function isWishlisted(userId: string, productId: string) {
+  const item = await Wishlist.findOne({ userId, productId });
+  return { isWishlisted: !!item };
+}

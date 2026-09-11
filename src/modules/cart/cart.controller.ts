@@ -4,11 +4,11 @@ import { ApiError } from "../../utils/apiError";
 import * as cartService from "./cart.service";
 
 export const getCart = catchAsync(async (req, res) => {
-  const userId = req.query.userId as string;
+  const userId = (req.query.userId || req.params.userId) as string;
   if (!userId) throw new ApiError(400, "userId is required");
 
   const cart = await cartService.getCartByUserId(userId);
-  apiResponse(res, 200, cart);
+  apiResponse(res, 200, cart, "Cart fetched successfully");
 });
 
 export const addToCart = catchAsync(async (req, res) => {
