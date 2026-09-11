@@ -29,12 +29,14 @@ export async function updateCategory(id: string, data: UpdateCategoryInput) {
 }
 
 export async function deleteCategory(id: string) {
+  // Block delete if any products belong to this category or its subcategories
   const subIds = await SubCategory.find({ categoryId: id }).distinct("_id");
   const productCount = await Product.countDocuments({
     $or: [{ categoryId: id }, { subCategoryIds: { $in: subIds } }],
   });
   if (productCount > 0) throw new ApiError(400, "Cannot delete category with active products");
 
+  // Delete all child subcategories first, then the category itself
   await SubCategory.deleteMany({ categoryId: id });
   await Category.findByIdAndDelete(id);
 }

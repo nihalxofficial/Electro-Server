@@ -1,15 +1,31 @@
 import { Types } from "mongoose";
 import { ProductReview } from "./review.model";
-import { Product } from "../product/product.model";
 import { User } from "../user/user.model";
 import { CreateReviewInput, UpdateReviewInput, GetReviewsQuery } from "./review.validator";
 
+// Converts a string ID into a filter that matches both string and ObjectId forms in MongoDB
 function toIdQuery(id: string) {
   return Types.ObjectId.isValid(id) ? { $in: [id, new Types.ObjectId(id)] } : id;
 }
 
+// Shapes a raw review doc + user into the API response format
+function formatReview(r: any, user?: any) {
+  return {
+    id: r._id.toString(),
+    productId: r.productId?.toString(),
+    userId: r.userId?.toString(),
+    userName: user?.name || "Anonymous",
+    userAvatar: user?.image,
+    rating: r.rating,
+    comment: r.comment,
+    date: r.createdAt,
+  };
+}
+
 export async function getReviews(query: GetReviewsQuery) {
   const { productId, userId, page, limit } = query;
+
+  // Build filter — only add fields if provided
   const filter: any = {};
   if (productId) filter.productId = toIdQuery(productId);
   if (userId) filter.userId = toIdQuery(userId);
@@ -20,46 +36,23 @@ export async function getReviews(query: GetReviewsQuery) {
     ProductReview.countDocuments(filter),
   ]);
 
-  const userIds = reviews.map((r: any) => r.userId).filter(Boolean);
-  const users = await User.find({
-    _id: { $in: userIds.flatMap((id: any) => (Types.ObjectId.isValid(id) ? [id, new Types.ObjectId(id)] : [id])) },
-  }).lean();
+  // Fetch all reviewer user docs in one query, then map by ID for O(1) lookup
+  const userIds = reviews.map((r: any) => new Types.ObjectId(r.userId)).filter(Boolean);
+  const users = await User.find({ _id: { $in: userIds } }).lean();
   const userMap = new Map(users.map((u: any) => [u._id.toString(), u]));
 
-  const formattedReviews = reviews.map((r: any) => {
-    const user = userMap.get(r.userId?.toString());
-    return {
-      id: r._id.toString(),
-      productId: r.productId?.toString(),
-      userId: r.userId?.toString(),
-      userName: (user as any)?.name || "Anonymous",
-      userAvatar: (user as any)?.image,
-      rating: r.rating,
-      comment: r.comment,
-      date: r.createdAt,
-    };
-  });
-
   return {
-    reviews: formattedReviews,
+    reviews: reviews.map((r: any) => formatReview(r, userMap.get(r.userId?.toString()))),
     pagination: { page, limit, total, totalPages: Math.ceil(total / limit) },
   };
 }
 
 export async function createReview(data: CreateReviewInput) {
-  const review = await ProductReview.create(data);
-  const user = await User.findById(data.userId).lean();
-
-  return {
-    id: review._id.toString(),
-    productId: review.productId?.toString(),
-    userId: review.userId?.toString(),
-    userName: (user as any)?.name || "Anonymous",
-    userAvatar: (user as any)?.image,
-    rating: review.rating,
-    comment: review.comment,
-    date: (review as any).createdAt,
-  };
+  const [review, user] = await Promise.all([
+    ProductReview.create(data),
+    User.findById(data.userId).lean(),
+  ]);
+  return formatReview({ ...review.toObject(), createdAt: (review as any).createdAt }, user);
 }
 
 export async function updateReview(id: string, data: UpdateReviewInput) {
@@ -68,4 +61,4 @@ export async function updateReview(id: string, data: UpdateReviewInput) {
 
 export async function deleteReview(id: string) {
   await ProductReview.findByIdAndDelete(id);
-}
+}

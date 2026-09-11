@@ -6,37 +6,41 @@ import { SubCategory } from "../subcategory/subcategory.model";
 import { ApiError } from "../../utils/apiError";
 import { CreateProductInput, UpdateProductInput, GetProductsQuery } from "./product.validator";
 
+// Escapes regex special chars so user search input matches literally
 function escapeRegex(str: string) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-async function getReviewsStatsMap(productIds: string[]) {
-  const ids = productIds.flatMap((id) => (Types.ObjectId.isValid(id) ? [id, new Types.ObjectId(id)] : [id]));
+// Fetches avg rating + review count for a batch of products in ONE query.
+// Returns a Map<productIdString, { avgRating, count }> for fast O(1) lookup.
+async function getRatingsMap(productIds: string[]) {
   const stats = await ProductReview.aggregate([
-    { $match: { productId: { $in: ids } } },
+    { $match: { productId: { $in: productIds.map((id) => new Types.ObjectId(id)) } } },
     { $group: { _id: { $toString: "$productId" }, avgRating: { $avg: "$rating" }, count: { $sum: 1 } } },
   ]);
   return new Map(stats.map((s) => [s._id, s]));
 }
 
-// Adds computed fields (id, discountPercentage, categories, rating, reviewCount)
-function formatProduct(product: any, statsMap?: Map<string, any>) {
+// Shapes a raw Mongoose product document into the API response format.
+// Accepts an optional ratingsMap to attach live rating/reviewCount from the reviews collection.
+function formatProduct(product: any, ratingsMap?: Map<string, any>) {
   const obj = product.toObject ? product.toObject() : product;
-  const idStr = obj._id?.toString() ?? obj.id;
-  const stat = statsMap?.get(idStr);
+  const id = obj._id?.toString() ?? obj.id;
+  const stat = ratingsMap?.get(id);
 
+  // Calculate discount% from prices if not already stored
   const discountPercentage =
     obj.originalPrice && obj.originalPrice > obj.price
       ? Math.round(((obj.originalPrice - obj.price) / obj.originalPrice) * 100)
       : undefined;
 
+  // Resolve category label from populated ref or specifications fallback
   const categoryName = obj.categoryId?.name || obj.specifications?.Category || "";
-  const categories = categoryName ? [categoryName] : [];
 
   return {
     ...obj,
-    id: idStr,
-    categories,
+    id,
+    categories: categoryName ? [categoryName] : [],
     discountPercentage,
     rating: stat ? Math.round(stat.avgRating * 10) / 10 : (obj.rating ?? 0),
     reviewCount: stat ? stat.count : (obj.reviewCount ?? 0),
@@ -122,6 +126,8 @@ export async function getProducts(query: GetProductsQuery) {
     const min = query.minDiscount ?? (minStr ? Number(minStr) : 0);
     const max = query.maxDiscount ?? (maxStr ? Number(maxStr) : 100);
 
+    // Compute discount% on-the-fly: ((originalPrice - price) / originalPrice) * 100
+    // Falls back to stored discountPercentage field if originalPrice is not set
     const discountExpr = {
       $cond: [
         { $and: [{ $gt: ["$originalPrice", "$price"] }, { $gt: ["$originalPrice", 0] }] },
@@ -168,10 +174,10 @@ export async function getProducts(query: GetProductsQuery) {
     Product.countDocuments(filter),
   ]);
 
-  const statsMap = await getReviewsStatsMap(products.map((p) => p._id.toString()));
+  const ratingsMap = await getRatingsMap(products.map((p) => p._id.toString()));
 
   return {
-    products: products.map((p) => formatProduct(p, statsMap)),
+    products: products.map((p) => formatProduct(p, ratingsMap)),
     total,
     pagination: { page, limit, total, totalPages: Math.ceil(total / limit) },
   };
@@ -193,6 +199,6 @@ export async function getProductBySlug(slug: string) {
     .populate("categoryId", "name slug")
     .populate("subCategoryIds", "name slug");
   if (!product) throw new ApiError(404, "Product not found");
-  const statsMap = await getReviewsStatsMap([product._id.toString()]);
-  return formatProduct(product, statsMap);
+  const ratingsMap = await getRatingsMap([product._id.toString()]);
+  return formatProduct(product, ratingsMap);
 }

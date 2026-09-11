@@ -5,6 +5,7 @@ import { ApiError } from "../../utils/apiError";
 import { CreateSubCategoryInput, UpdateSubCategoryInput } from "./subcategory.validator";
 
 export async function createSubCategory(data: CreateSubCategoryInput) {
+  // Ensure parent category exists before creating the subcategory
   const parent = await Category.findById(data.categoryId);
   if (!parent) throw new ApiError(404, "Parent category not found");
 
@@ -26,6 +27,7 @@ export async function updateSubCategory(id: string, data: UpdateSubCategoryInput
 }
 
 export async function deleteSubCategory(id: string) {
+  // Block delete if any products are linked to this subcategory
   const productCount = await Product.countDocuments({ subCategoryIds: id });
   if (productCount > 0) throw new ApiError(400, "Cannot delete subcategory with active products");
   await SubCategory.findByIdAndDelete(id);

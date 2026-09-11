@@ -8,6 +8,7 @@ export async function getUsers(query: GetUsersQuery) {
   const filter: Record<string, any> = {};
   if (role) filter.role = role;
   if (status) filter.status = status;
+  // Optional search across name and email fields (case-insensitive)
   if (search?.trim()) {
     const searchRegex = new RegExp(search.trim(), "i");
     filter.$or = [{ name: searchRegex }, { email: searchRegex }];
