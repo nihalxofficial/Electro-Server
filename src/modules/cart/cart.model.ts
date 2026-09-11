@@ -1,19 +1,15 @@
 import { Schema, model } from "mongoose";
 
-const cartItemSchema = new Schema(
-  {
-    productId: { type: Schema.Types.ObjectId, ref: "Product", required: true },
-    quantity: { type: Number, required: true, min: 1 },
-  },
-  { _id: false }
-);
-
 const cartSchema = new Schema(
   {
-    userId: { type: Schema.Types.ObjectId, ref: "User", required: true, unique: true },
-    items: [cartItemSchema],
+    productId: { type: Schema.Types.ObjectId, ref: "Product", required: true },
+    userId: { type: Schema.Types.ObjectId, ref: "User", required: true },
+    quantity: { type: Number, required: true, min: 1, default: 1 },
   },
   { timestamps: true }
 );
+
+// One cart row per user+product — quantity is updated in place, not duplicated
+cartSchema.index({ userId: 1, productId: 1 }, { unique: true });
 
 export const Cart = model("Cart", cartSchema);
