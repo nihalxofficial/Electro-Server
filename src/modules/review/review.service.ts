@@ -49,7 +49,6 @@ export async function getReviews(query: GetReviewsQuery) {
 export async function createReview(data: CreateReviewInput) {
   const review = await ProductReview.create(data);
   const user = await User.findById(data.userId).lean();
-  await recalculateProductRating(data.productId);
 
   return {
     id: review._id.toString(),
@@ -64,64 +63,9 @@ export async function createReview(data: CreateReviewInput) {
 }
 
 export async function updateReview(id: string, data: UpdateReviewInput) {
-  const review = await ProductReview.findByIdAndUpdate(id, data, { new: true }).lean();
-  if (data.rating !== undefined && review) await recalculateProductRating((review as any).productId.toString());
-  return review;
+  return ProductReview.findByIdAndUpdate(id, data, { new: true }).lean();
 }
 
 export async function deleteReview(id: string) {
-  const review = await ProductReview.findByIdAndDelete(id);
-  if (review) await recalculateProductRating((review as any).productId.toString());
-}
-
-export async function recalculateProductRating(productId: string) {
-  const [stats] = await ProductReview.aggregate([
-    { $match: { productId: toIdQuery(productId) } },
-    { $group: { _id: null, avgRating: { $avg: "$rating" }, count: { $sum: 1 } } },
-  ]);
-
-  const rating = stats ? Math.round(stats.avgRating * 10) / 10 : undefined;
-  const reviewCount = stats?.count ?? 0;
-
-  const filter = Types.ObjectId.isValid(productId)
-    ? { $or: [{ _id: productId }, { _id: new Types.ObjectId(productId) }] }
-    : { _id: productId };
-
-  await Product.updateOne(filter, {
-    rating,
-    reviewCount,
-  });
-}
-
-export async function syncAllProductRatings() {
-  try {
-    const stats = await ProductReview.aggregate([
-      {
-        $group: {
-          _id: { $toString: "$productId" },
-          avgRating: { $avg: "$rating" },
-          count: { $sum: 1 },
-        },
-      },
-    ]);
-
-    for (const stat of stats) {
-      if (!stat._id) continue;
-      const pid = stat._id;
-      const rating = Math.round(stat.avgRating * 10) / 10;
-      const reviewCount = stat.count;
-
-      const filter = Types.ObjectId.isValid(pid)
-        ? { $or: [{ _id: pid }, { _id: new Types.ObjectId(pid) }] }
-        : { _id: pid };
-
-      await Product.updateOne(filter, {
-        rating,
-        reviewCount,
-      });
-    }
-    console.log(`[syncAllProductRatings] Synced ratings for ${stats.length} products.`);
-  } catch (err) {
-    console.error("[syncAllProductRatings] Error syncing product ratings:", err);
-  }
+  await ProductReview.findByIdAndDelete(id);
 }

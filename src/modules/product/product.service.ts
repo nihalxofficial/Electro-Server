@@ -1,4 +1,6 @@
+import { Types } from "mongoose";
 import { Product } from "./product.model";
+import { ProductReview } from "../review/review.model";
 import { Category } from "../category/category.model";
 import { SubCategory } from "../subcategory/subcategory.model";
 import { ApiError } from "../../utils/apiError";
@@ -8,9 +10,20 @@ function escapeRegex(str: string) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-// Adds computed fields (id, discountPercentage, categories)
-function formatProduct(product: any) {
+async function getReviewsStatsMap(productIds: string[]) {
+  const ids = productIds.flatMap((id) => (Types.ObjectId.isValid(id) ? [id, new Types.ObjectId(id)] : [id]));
+  const stats = await ProductReview.aggregate([
+    { $match: { productId: { $in: ids } } },
+    { $group: { _id: { $toString: "$productId" }, avgRating: { $avg: "$rating" }, count: { $sum: 1 } } },
+  ]);
+  return new Map(stats.map((s) => [s._id, s]));
+}
+
+// Adds computed fields (id, discountPercentage, categories, rating, reviewCount)
+function formatProduct(product: any, statsMap?: Map<string, any>) {
   const obj = product.toObject ? product.toObject() : product;
+  const idStr = obj._id?.toString() ?? obj.id;
+  const stat = statsMap?.get(idStr);
 
   const discountPercentage =
     obj.originalPrice && obj.originalPrice > obj.price
@@ -22,9 +35,11 @@ function formatProduct(product: any) {
 
   return {
     ...obj,
-    id: obj._id?.toString() ?? obj.id,
+    id: idStr,
     categories,
     discountPercentage,
+    rating: stat ? Math.round(stat.avgRating * 10) / 10 : (obj.rating ?? 0),
+    reviewCount: stat ? stat.count : (obj.reviewCount ?? 0),
   };
 }
 
@@ -153,8 +168,10 @@ export async function getProducts(query: GetProductsQuery) {
     Product.countDocuments(filter),
   ]);
 
+  const statsMap = await getReviewsStatsMap(products.map((p) => p._id.toString()));
+
   return {
-    products: products.map(formatProduct),
+    products: products.map((p) => formatProduct(p, statsMap)),
     total,
     pagination: { page, limit, total, totalPages: Math.ceil(total / limit) },
   };
@@ -176,5 +193,6 @@ export async function getProductBySlug(slug: string) {
     .populate("categoryId", "name slug")
     .populate("subCategoryIds", "name slug");
   if (!product) throw new ApiError(404, "Product not found");
-  return formatProduct(product);
+  const statsMap = await getReviewsStatsMap([product._id.toString()]);
+  return formatProduct(product, statsMap);
 }
