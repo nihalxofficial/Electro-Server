@@ -4,6 +4,8 @@ import categoryRoutes from "./modules/category/category.route";
 import subCategoryRoutes from "./modules/subcategory/subcategory.route";
 import productRoutes from "./modules/product/product.route";
 import reviewRoutes from "./modules/review/review.route";
+import wishlistRoutes from "./modules/wishlist/wishlist.route";
+import cartRoutes from "./modules/cart/cart.route";
 import userRoutes from "./modules/user/user.route";
 import { errorMiddleware } from "./middlewares/error.middleware";
 import { notFound } from "./middlewares/notFound.middleware";
@@ -25,6 +27,8 @@ app.get("/", (_req, res) => {
 app.use("/api/categories", categoryRoutes);
 app.use("/api/subcategories", subCategoryRoutes);
 app.use("/api/products", productRoutes);
+app.use("/api/wishlist", wishlistRoutes);
+app.use("/api/cart", cartRoutes);
 app.use("/api/reviews", reviewRoutes);
 app.use("/api/users", userRoutes);
 
