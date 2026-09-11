@@ -74,14 +74,54 @@ export async function deleteReview(id: string) {
   if (review) await recalculateProductRating((review as any).productId.toString());
 }
 
-async function recalculateProductRating(productId: string) {
+export async function recalculateProductRating(productId: string) {
   const [stats] = await ProductReview.aggregate([
     { $match: { productId: toIdQuery(productId) } },
     { $group: { _id: null, avgRating: { $avg: "$rating" }, count: { $sum: 1 } } },
   ]);
 
-  await Product.findByIdAndUpdate(productId, {
-    rating: stats ? Math.round(stats.avgRating * 10) / 10 : undefined,
-    reviewCount: stats?.count ?? 0,
+  const rating = stats ? Math.round(stats.avgRating * 10) / 10 : undefined;
+  const reviewCount = stats?.count ?? 0;
+
+  const filter = Types.ObjectId.isValid(productId)
+    ? { $or: [{ _id: productId }, { _id: new Types.ObjectId(productId) }] }
+    : { _id: productId };
+
+  await Product.updateOne(filter, {
+    rating,
+    reviewCount,
   });
+}
+
+export async function syncAllProductRatings() {
+  try {
+    const stats = await ProductReview.aggregate([
+      {
+        $group: {
+          _id: { $toString: "$productId" },
+          avgRating: { $avg: "$rating" },
+          count: { $sum: 1 },
+        },
+      },
+    ]);
+
+    for (const stat of stats) {
+      if (!stat._id) continue;
+      const pid = stat._id;
+      const rating = Math.round(stat.avgRating * 10) / 10;
+      const reviewCount = stat.count;
+
+      const filter = Types.ObjectId.isValid(pid)
+        ? { $or: [{ _id: pid }, { _id: new Types.ObjectId(pid) }] }
+        : { _id: pid };
+
+      await Product.updateOne(filter, {
+        rating,
+        reviewCount,
+      });
+    }
+    console.log(`[syncAllProductRatings] Synced ratings for ${stats.length} products.`);
+  } catch (err) {
+    console.error("[syncAllProductRatings] Error syncing product ratings:", err);
+  }
 }

@@ -28,3 +28,8 @@ export const deleteReview = catchAsync(async (req, res) => {
   await reviewService.deleteReview(req.params.id as string);
   apiResponse(res, 200, null, "Review deleted");
 });
+
+export const syncRatings = catchAsync(async (req, res) => {
+  await reviewService.syncAllProductRatings();
+  apiResponse(res, 200, null, "All product ratings synchronized successfully");
+});
