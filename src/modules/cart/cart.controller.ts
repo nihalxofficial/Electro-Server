@@ -24,11 +24,15 @@ export const updateCartItem = catchAsync(async (req, res) => {
 });
 
 export const removeFromCart = catchAsync(async (req, res) => {
-  await cartService.removeFromCart(req.body.userId, req.params.productId as string);
+  const userId = (req.body?.userId || req.query?.userId) as string;
+  if (!userId) throw new ApiError(400, "userId is required");
+  await cartService.removeFromCart(userId, req.params.productId as string);
   apiResponse(res, 200, null, "Removed from cart");
 });
 
 export const clearCart = catchAsync(async (req, res) => {
-  await cartService.clearCart(req.body.userId);
+  const userId = (req.body?.userId || req.query?.userId) as string;
+  if (!userId) throw new ApiError(400, "userId is required");
+  await cartService.clearCart(userId);
   apiResponse(res, 200, null, "Cart cleared");
 });
