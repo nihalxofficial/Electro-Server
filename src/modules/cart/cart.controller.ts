@@ -36,3 +36,12 @@ export const clearCart = catchAsync(async (req, res) => {
   await cartService.clearCart(userId);
   apiResponse(res, 200, null, "Cart cleared");
 });
+
+export const isCarted = catchAsync(async (req, res) => {
+  const userId = (req.query.userId || req.params.userId || req.body?.userId) as string;
+  const productId = (req.query.productId || req.params.productId || req.body?.productId) as string;
+  if (!userId || !productId) throw new ApiError(400, "userId and productId are required");
+
+  const result = await cartService.isCarted(userId, productId);
+  apiResponse(res, 200, result, "Cart status fetched successfully");
+});

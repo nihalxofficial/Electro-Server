@@ -6,6 +6,7 @@ import * as cartController from "./cart.controller";
 const router = Router();
 
 router.get("/", cartController.getCart);
+router.get("/is-carted", cartController.isCarted);
 router.get("/user/:userId", cartController.getCart);
 router.post("/", validate(addToCartSchema), cartController.addToCart);
 router.patch("/:productId", validate(updateCartItemSchema), cartController.updateCartItem);

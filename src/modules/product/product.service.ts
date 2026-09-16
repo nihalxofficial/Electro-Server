@@ -14,8 +14,16 @@ function escapeRegex(str: string) {
 // Fetches avg rating + review count for a batch of products in ONE query.
 // Returns a Map<productIdString, { avgRating, count }> for fast O(1) lookup.
 async function getRatingsMap(productIds: string[]) {
+  const objectIds = productIds.filter((id) => Types.ObjectId.isValid(id)).map((id) => new Types.ObjectId(id));
   const stats = await ProductReview.aggregate([
-    { $match: { productId: { $in: productIds.map((id) => new Types.ObjectId(id)) } } },
+    {
+      $match: {
+        $or: [
+          { productId: { $in: productIds } },
+          { productId: { $in: objectIds } },
+        ],
+      },
+    },
     { $group: { _id: { $toString: "$productId" }, avgRating: { $avg: "$rating" }, count: { $sum: 1 } } },
   ]);
   return new Map(stats.map((s) => [s._id, s]));

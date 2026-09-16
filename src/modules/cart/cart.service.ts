@@ -69,3 +69,8 @@ export async function removeFromCart(userId: string, productId: string) {
 export async function clearCart(userId: string) {
   await Cart.deleteMany({ userId });
 }
+
+export async function isCarted(userId: string, productId: string) {
+  const item = await Cart.findOne({ userId, productId });
+  return { isCarted: !!item, isInCart: !!item };
+}
