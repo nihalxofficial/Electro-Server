@@ -4,7 +4,7 @@ import { ENV } from "../config/env";
 
 const { createRemoteJWKSet, jwtVerify } = require("jose-cjs");
 
-const JWKS = createRemoteJWKSet(new URL(`${ENV.AUTH_SERVER_URL}/api/auth/jwks`));
+const JWKS = createRemoteJWKSet(new URL(`${ENV.NEXT_PUBLIC_CLIENT_URL}/api/auth/jwks`));
 
 declare global {
   namespace Express {
@@ -27,7 +27,7 @@ export async function requireAuth(req: Request, res: Response, next: NextFunctio
 
   try {
     const { payload } = await jwtVerify(token, JWKS, {
-      issuer: ENV.AUTH_SERVER_URL,
+      issuer: ENV.NEXT_PUBLIC_CLIENT_URL,
     });
 
     req.user = {
