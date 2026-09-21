@@ -9,6 +9,8 @@ const userSchema = new Schema(
     role: { type: String },
     plan: { type: String },
     status: { type: String },
+    member: { type: String },   
+    points: { type: Number },
   },
   { timestamps: true, collection: "user" }
 );
