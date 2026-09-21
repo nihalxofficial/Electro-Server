@@ -3,7 +3,7 @@ import { Product } from "../product/product.model";
 import { Cart } from "../cart/cart.model";
 import { User } from "../user/user.model";
 import { ApiError } from "../../utils/apiError";
-import { CreateOrderInput, UpdateOrderStatusInput } from "./order.validator";
+import { CreateOrderInput, UpdateOrderStatusInput, GetOrdersQuery } from "./order.validator";
 import { logOrderStatus } from "../order-status/order-status.service";
 import { createTransaction, getLatestTransactionForOrder } from "../transaction/transaction.service";
 
@@ -61,7 +61,7 @@ export async function createOrder(data: CreateOrderInput) {
     reference,
   });
 
-  await logOrderStatus(order._id.toString(), "confirmed");
+  await logOrderStatus(order._id.toString(), "processing");
 
   for (const item of data.items) {
     await Product.findByIdAndUpdate(item.productId, { $inc: { stockQuantity: -item.quantity } });
@@ -74,12 +74,57 @@ export async function createOrder(data: CreateOrderInput) {
   return order;
 }
 
-export async function getOrdersByUserId(userId: string) {
-  return Order.find({ userId }).populate("items.productId").sort({ createdAt: -1 });
+export async function getOrders(query: GetOrdersQuery) {
+  const { userId, status, search, sort, page, limit } = query;
+  const conditions: any[] = [];
+
+  if (userId) conditions.push({ userId });
+  if (status && status !== "all") conditions.push({ orderStatus: status.toLowerCase() });
+
+  if (search?.trim()) {
+    const q = search.trim();
+    const isId = /^[0-9a-fA-F]{24}$/.test(q);
+    const searchOr: any[] = [
+      { "shippingAddress.fullName": { $regex: q, $options: "i" } },
+      { "shippingAddress.city": { $regex: q, $options: "i" } },
+      { paymentMethod: { $regex: q, $options: "i" } },
+    ];
+    if (isId) searchOr.push({ _id: q }, { userId: q });
+    conditions.push({ $or: searchOr });
+  }
+
+  const filter = conditions.length > 0 ? { $and: conditions } : {};
+
+  const sortMap: Record<string, Record<string, 1 | -1>> = {
+    newest: { createdAt: -1 },
+    oldest: { createdAt: 1 },
+    total_asc: { totalAmount: 1 },
+    total_desc: { totalAmount: -1 },
+  };
+  const sortCriteria = sortMap[sort ?? ""] ?? { createdAt: -1 };
+
+  const skip = (page - 1) * limit;
+  const [orders, total] = await Promise.all([
+    Order.find(filter)
+      .populate("userId", "name email image avatar")
+      .populate("items.productId")
+      .sort(sortCriteria)
+      .skip(skip)
+      .limit(limit),
+    Order.countDocuments(filter),
+  ]);
+
+  return {
+    orders,
+    total,
+    pagination: { page, limit, total, totalPages: Math.ceil(total / limit) },
+  };
 }
 
 export async function getOrderById(id: string) {
-  const order = await Order.findById(id).populate("items.productId");
+  const order = await Order.findById(id)
+    .populate("userId", "name email image avatar")
+    .populate("items.productId");
   if (!order) throw new ApiError(404, "Order not found");
 
   const transaction = await getLatestTransactionForOrder(id);

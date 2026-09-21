@@ -30,5 +30,15 @@ export const updateOrderStatusSchema = z.object({
   orderStatus: z.enum(["confirmed", "processing", "shipped", "delivered", "cancelled"]),
 });
 
+export const getOrdersQuerySchema = z.object({
+  userId: z.string().optional(),
+  status: z.string().optional(),
+  search: z.string().optional(),
+  sort: z.enum(["newest", "oldest", "total_asc", "total_desc"]).optional(),
+  page: z.coerce.number().int().min(1).default(1),
+  limit: z.coerce.number().int().min(1).max(100).default(20),
+});
+
 export type CreateOrderInput = z.infer<typeof createOrderSchema>;
 export type UpdateOrderStatusInput = z.infer<typeof updateOrderStatusSchema>;
+export type GetOrdersQuery = z.infer<typeof getOrdersQuerySchema>;
