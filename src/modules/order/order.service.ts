@@ -33,6 +33,7 @@ export async function createOrder(data: CreateOrderInput) {
       title: product.title,
       price: product.price,
       quantity: item.quantity,
+      image: product.image,
     });
   }
 
@@ -74,11 +75,11 @@ export async function createOrder(data: CreateOrderInput) {
 }
 
 export async function getOrdersByUserId(userId: string) {
-  return Order.find({ userId }).sort({ createdAt: -1 });
+  return Order.find({ userId }).populate("items.productId").sort({ createdAt: -1 });
 }
 
 export async function getOrderById(id: string) {
-  const order = await Order.findById(id);
+  const order = await Order.findById(id).populate("items.productId");
   if (!order) throw new ApiError(404, "Order not found");
 
   const transaction = await getLatestTransactionForOrder(id);
