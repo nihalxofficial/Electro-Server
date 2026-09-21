@@ -7,6 +7,9 @@ import reviewRoutes from "./modules/review/review.route";
 import wishlistRoutes from "./modules/wishlist/wishlist.route";
 import cartRoutes from "./modules/cart/cart.route";
 import userRoutes from "./modules/user/user.route";
+import orderRoutes from "./modules/order/order.route";
+import orderStatusRoutes from "./modules/order-status/order-status.route";
+import transactionRoutes from "./modules/transaction/transaction.route";
 import { errorMiddleware } from "./middlewares/error.middleware";
 import { notFound } from "./middlewares/notFound.middleware";
 
@@ -31,6 +34,9 @@ app.use("/api/wishlist", wishlistRoutes);
 app.use("/api/cart", cartRoutes);
 app.use("/api/reviews", reviewRoutes);
 app.use("/api/users", userRoutes);
+app.use("/api/orders", orderRoutes);
+app.use("/api/order-status", orderStatusRoutes);
+app.use("/api/transactions", transactionRoutes);
 
 app.use(notFound);
 app.use(errorMiddleware);
