@@ -23,6 +23,7 @@ app.get("/api", (_req, res) => {
   res.json({ success: true, message: "Electro server is running✅" });
 });
 
+
 app.get("/", (_req, res) => {
   res.json({ success: true, message: "Electro server API is running✅" });
 });

@@ -33,7 +33,7 @@ export async function createOrder(data: CreateOrderInput) {
       title: product.title,
       price: product.price,
       quantity: item.quantity,
-      image: product.image,
+      image: product.image || item.image || "",
     });
   }
 

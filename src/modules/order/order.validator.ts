@@ -5,6 +5,9 @@ const objectId = z.string().regex(/^[0-9a-fA-F]{24}$/, "Invalid ID");
 const orderItemInputSchema = z.object({
   productId: objectId,
   quantity: z.number().int().min(1),
+  image: z.string().optional(),
+  title: z.string().optional(),
+  price: z.number().optional(),
 });
 
 const shippingAddressSchema = z.object({
